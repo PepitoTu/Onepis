@@ -1,0 +1,2259 @@
+{
+"name":"Dragon Block C Movies Saga",
+"desc":"DBC side story that is an alternative story, than the stories in the series. Based on the Movies.",
+"authors":"Hedaox, FinTheHuman, JakeTheDog",
+"version":"1.0",
+"mods":"DBC, ninjinentities",
+"settings":{
+  "repeat":"1",
+  "unlock":"",
+  "vars":""
+},
+"missions":[
+  {
+	 "id":0,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Movies Story"
+	 ],
+	 "subtitle":[
+		"Welcome to the Movies saga!"
+	 ],
+	 "description":[
+		"Like the main saga this saga is an alternative of the original story from the movies. Just for more fun! Before starting this saga you should make sure to at least be above the level of Raditz in terms of power."
+	 ],
+	 "objectives":[
+		[
+		   "next"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;jinryuujrmcore.Next;1"
+		]
+	 ]
+  },
+  {
+	 "id":1,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Dead Zone"
+	 ],
+	 "subtitle":[
+		"Garlic Jr's Henchmen."
+	 ],
+	 "description":[
+		"Piccolo has been defeated by Garlic Jr. and his henchmen! And Gohan has been kidnapped! Garlic Jr. is the son and reincarnation of Garlic. Garlic was a contender for the title of god, but was beaten by Kami. He was then imprisoned in the Dead Zone for his evil schemes. His son wants revenge for his father and manage to get a wish of immortality with the Dragon Balls! You just found his hideout and need to get rid of his henchmen!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.ginger;H857;A29;SGinger: If you want to see Garlic Jr. you will have to get through us first! And now for the formal introduction! I'm Ginger!;DGinger: AAAAAAAAARRRR!!",
+		   "kill;Nninjinentities.nicky;H686;A23;SNicky: You can call me Nicky.;DNicky: AAAGGAABLBL!!",
+		   "kill;Nninjinentities.sansho;H743;A25;SSansho: And I am Sansho. ;DSansho: NOO...!! AARR!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!170||align!+5;jinryuujrmcore.missionSys.Protect;2",
+          "tp!fix!170||align!0;jinryuujrmcore.missionSys.Myself;2",
+          "tp!fix!170||align!-5;jinryuujrmcore.missionSys.Evil;2"
+		]
+	 ]
+  },
+  {
+	 "id":2,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Dead Zone"
+	 ],
+	 "subtitle":[
+		"Garlic Jr."
+	 ],
+	 "description":[
+		"You successfully defeated Garlic Jr's henchmen! You have to find a way to stop Garlic Jr. now!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.garlicJr;H860;A29;Tninjinentities.garlicJrSuper|50|1.33;SGarlic Jr.: What a shame, your death will be a long and painful one! AAAAAAAAAAAAAAAAH!!;DGarlic Jr.: You... You can't kill me! I'm immortal!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!185||align!+5;jinryuujrmcore.missionSys.Protect;3",
+          "tp!fix!185||align!0;jinryuujrmcore.missionSys.Myself;3",
+          "tp!fix!185||align!-5;jinryuujrmcore.missionSys.Evil;3"
+		]
+	 ]
+  },
+  {
+	 "id":3,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Dead Zone"
+	 ],
+	 "subtitle":[
+		"Piccolo and Goku's request"
+	 ],
+	 "description":[
+		"Piccolo was not dead, and manage to helped you defeat Garlic Jr. with Goku. They both wish to fight against you, Piccolo wants to settle the score with you! And Goku just want a friendly match."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.piccolo;H1029;A34;SPiccolo: Now it's your turn!;DPiccolo: Stop! I understand your strength now, but don't think it will be the same next time!",
+		   "kill;Nninjinentities.gokunoweight;H1085;A36;SGoku: Hey I want to fight with you too!;DGoku: Wow! I see how you could beat Garlic so easily now! "
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!200||align!+5;jinryuujrmcore.missionSys.Protect;4",
+          "tp!fix!200||align!0;jinryuujrmcore.missionSys.Myself;4",
+          "tp!fix!200||align!-5;jinryuujrmcore.missionSys.Evil;4"
+		]
+	 ]
+  },
+  {
+	 "id":4,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Dead Zone"
+	 ],
+	 "subtitle":[
+		"Garlic Jr. true end"
+	 ],
+	 "description":[
+		"Garlic Jr. was not dead! His immortality saves him and he then manages to open the Dead Zone and wants to imprison you inside! But by some sort of miracle, Gohan who was very angry send him in the Dead Zone with a powerful Ki attack. Garlic Jr. is truly defeated!"
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;5"
+		]
+	 ]
+  },
+  {
+	 "id":5,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The World's Strongest"
+	 ],
+	 "subtitle":[
+		"The Biomen"
+	 ],
+	 "description":[
+		"It seems that all the Dragon Balls have been gathered somewhere. You were searching for them with Gohan and Oolong, but suddenly you were ambushed by several small creatures!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "killsame;Nninjinentities.biomen;M4;H571;A19"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!160||align!+5;jinryuujrmcore.missionSys.Protect;6",
+          "tp!fix!160||align!0;jinryuujrmcore.missionSys.Myself;6",
+          "tp!fix!160||align!-5;jinryuujrmcore.missionSys.Evil;6"
+		]
+	 ]
+  },
+  {
+	 "id":6,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The World's Strongest"
+	 ],
+	 "subtitle":[
+		"The Bio-Warriors"
+	 ],
+	 "description":[
+		"After that little incident you decide to go home. After a while, Oolong goes to see you and tell you that Bulma has been kidnapped by those biomen and that master Roshi is with them! Oolong is asking for your help. You decide to go but you are attacked by a yellow monster named Misokatsun!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.misokatsun;H4500;A81;SMisokatsun: Hooo Hahaha!;DMisokatsun: Hgnnn...!! AAAARR!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!250||align!+5;jinryuujrmcore.missionSys.Protect;7",
+          "tp!fix!250||align!0;jinryuujrmcore.missionSys.Myself;7",
+          "tp!fix!250||align!-5;jinryuujrmcore.missionSys.Evil;7"
+		]
+	 ]
+  },
+  {
+	 "id":7,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The World's Strongest"
+	 ],
+	 "subtitle":[
+		"The Bio-Warriors #2"
+	 ],
+	 "description":[
+		"The ones behind this are two evils scientist : Kochin and Wheelo. Their goal is to obtain a strong body for Wheelo, who is only a big brain in a jar at the moment. You are then attacked by Ebifurya and Kishime! Two others Bio-Warriors!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.kishime;H4000;A133;SKishime: Waaaar!;DKishime: AAAAARRRR!!",
+		   "kill;Nninjinentities.ebifurya;H4200;A140;SEbifurya: ...;DEbifurya: Whaat!! Oooooo...! OAAAA!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!300||align!+5;jinryuujrmcore.missionSys.Protect;8",
+          "tp!fix!300||align!0;jinryuujrmcore.missionSys.Myself;8",
+          "tp!fix!300||align!-5;jinryuujrmcore.missionSys.Evil;8"
+		]
+	 ]
+  },
+  {
+	 "id":8,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The World's Strongest"
+	 ],
+	 "subtitle":[
+		"Brain washed Z Warriors"
+	 ],
+	 "description":[
+		"Wheelo with his brain attached to the wall tell you that he wants your Body as his own. Koshin then summoned Goku and Piccolo that have been brain washed by his science! He orders them to defeat you, so they can begin the process of swapping body."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.piccolo;H4572;A152;SPiccolo(Brain Washed): Grrrr...!;DPiccolo: Uurg... Wha...",
+		   "kill;Nninjinentities.goku1;H5714;A190;SGoku(Brain Washed): Hgnn...!;DGoku: Ouuch... what I was doing...?"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!325||align!+5;jinryuujrmcore.missionSys.Protect;9",
+          "tp!fix!325||align!0;jinryuujrmcore.missionSys.Myself;9",
+          "tp!fix!325||align!-5;jinryuujrmcore.missionSys.Evil;9"
+		]
+	 ]
+  },
+  {
+	 "id":9,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The World's Strongest"
+	 ],
+	 "subtitle":[
+		"Dr Wheelo"
+	 ],
+	 "description":[
+		"You manage to restore Goku and Piccolo consciousness. Meanwhile, Wheelo breaks out of the wall, revealing his brain to be inside a huge robot! He attacks you! "
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.drWheelo;H11428;A381;SDr Wheelo: I will get your body! No matter what!;DDr Wheelo: NOOO... AAAAAAARRRR!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!350||align!+5;jinryuujrmcore.missionSys.Protect;10",
+          "tp!fix!350||align!0;jinryuujrmcore.missionSys.Myself;10",
+          "tp!fix!350||align!-5;jinryuujrmcore.missionSys.Evil;10"
+		]
+	 ]
+  },
+  {
+	 "id":10,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The World's Strongest"
+	 ],
+	 "subtitle":[
+		"Dr Wheelo is dead"
+	 ],
+	 "description":[
+		"Good job. You managed to blast Wheelo into space and with the help of others Z warriors you managed to beat him."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;11"
+		]
+	 ]
+  },
+  {
+	 "id":11,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Tree Of Might"
+	 ],
+	 "subtitle":[
+		"Rasin & Lakasei"
+	 ],
+	 "description":[
+		"An unknown band of aliens is trying to plant some kind of big Tree on Earth that sucks all of the nutrients out of the planet on which it was planted and leaves it a desert. Stop them!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.rasin;H4343;A145;SRasin: Rasin!;DRasin: AAAAH!!",
+		   "kill;Nninjinentities.lakasei;H4343;A145;SLakasei: And I'm Lakasei! We are both brothers!;DLakasei: Aaa...! AAAAAH!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!300||align!+5;jinryuujrmcore.missionSys.Protect;12",
+          "tp!fix!300||align!0;jinryuujrmcore.missionSys.Myself;12",
+          "tp!fix!300||align!-5;jinryuujrmcore.missionSys.Evil;12"
+		]
+	 ]
+  },
+  {
+	 "id":12,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Tree Of Might"
+	 ],
+	 "subtitle":[
+		"Amond"
+	 ],
+	 "description":[
+		"Amond is also one of them!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.amond;H7429;A248;SAmond: Ah! Let's see what fancy move you have!;DAmond: WHAAAAAARG...!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!375||align!+5;jinryuujrmcore.missionSys.Protect;13",
+          "tp!fix!375||align!0;jinryuujrmcore.missionSys.Myself;13",
+          "tp!fix!375||align!-5;jinryuujrmcore.missionSys.Evil;13"
+		]
+	 ]
+  },
+  {
+	 "id":13,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Tree Of Might"
+	 ],
+	 "subtitle":[
+		"Daiz & Cacao"
+	 ],
+	 "description":[
+		"Now it's the turn of Daiz and Cacao, the two of them are as strong as Amond!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.daiz;H7429;A248;SDaiz: Let's see how you like this!;DDaiz: AAAARG!!",
+		   "kill;Nninjinentities.cacao;H7429;A248;SCacao: Ah Ah AH!;DCacao: WAAAAAAAH!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!400||align!+5;jinryuujrmcore.missionSys.Protect;14",
+          "tp!fix!400||align!0;jinryuujrmcore.missionSys.Myself;14",
+          "tp!fix!400||align!-5;jinryuujrmcore.missionSys.Evil;14"
+		]
+	 ]
+  },
+  {
+	 "id":14,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Tree Of Might"
+	 ],
+	 "subtitle":[
+		"Gohan became an Oozaru!"
+	 ],
+	 "description":[
+		"One of them was also a saiyen that look a lot like Goku! He managed to kidnap Gohan an make him look at an artificial moon! He is now a giant monkey! Stop Gohan!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.gohanKid2;H5714;A190;Tninjinentities.oozaru|50|2.0;SGohan: No... Aaaaah! AAAAAAARH!! RAAAAAAAAAAAARH!!;DGohan: RAAAAAAAaaaaaah..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!400||align!+5;jinryuujrmcore.missionSys.Protect;15",
+          "tp!fix!400||align!0;jinryuujrmcore.missionSys.Myself;15",
+          "tp!fix!400||align!-5;jinryuujrmcore.missionSys.Evil;15"
+		]
+	 ]
+  },
+  {
+	 "id":15,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Tree Of Might"
+	 ],
+	 "subtitle":[
+		"Turles the ruthless Saiyen"
+	 ],
+	 "description":[
+		"Turles is the saiyen that was originally attacking the Earth with the Tree of Might. You have to stop him or the Earth will just be a big desert!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.turles2;H10857;A362;Tninjinentities.turles3|200|1.69;STurles: You are just some weakling. And I will even get stronger with the fruit of the tree of might!;DTurles: OOOOOOOOOOOOOHHWAAAAAAAAAH!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!500||align!+5;jinryuujrmcore.missionSys.Protect;16",
+          "tp!fix!500||align!0;jinryuujrmcore.missionSys.Myself;16",
+          "tp!fix!500||align!-5;jinryuujrmcore.missionSys.Evil;16"
+		]
+	 ]
+  },
+  {
+	 "id":16,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Tree Of Might"
+	 ],
+	 "subtitle":[
+		"Destruction of the Tree"
+	 ],
+	 "description":[
+		"You managed to destroy the tree along with Turles. The destruction of the Tree released the absorbed energy all over the planet and its living things."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;17"
+		]
+	 ]
+  },
+  {
+	 "id":17,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Lord Slug"
+	 ],
+	 "subtitle":[
+		"The inhabited planet"
+	 ],
+	 "description":[
+		"You sensed an object from space fast approaching the Earth which is revealed to be an inhabited planet. The planet passes near Earth but misses the crash, exploding soon afterward. However, a spaceship from the planet lands on Earth which is full of soldiers. It seems theirs Leader Lord Slug wants to conquer the Earth! Stop them!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "killsame;Nninjinentities.slugSoldier;M10;H2000;A67"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!400||align!+5;jinryuujrmcore.missionSys.Protect;18",
+          "tp!fix!400||align!0;jinryuujrmcore.missionSys.Myself;18",
+          "tp!fix!400||align!-5;jinryuujrmcore.missionSys.Evil;18"
+		]
+	 ]
+  },
+  {
+	 "id":18,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Lord Slug"
+	 ],
+	 "subtitle":[
+		"Wings & Zeeun"
+	 ],
+	 "description":[
+		"Bulma and Gohan are near the ship. Gohan attempts to stop Slug's soldiers with you. Slug notices the Dragon Ball Gohan has on his hat and obtains it. After reading Bulma's mind, Slug learns about the Dragon Balls and how to get them. He sends some of his men to search for the Dragon Ball and also keeps some of them to stop you!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.wings;H22572;A752;SWings: Hehehe, well what do we have here?;DWings: You're strong but you can't beat... Lord Slug... AAARRR!!",
+		   "kill;Nninjinentities.zeeun;H20572;A687;SZeeun: You can't beat us!;DZeeun: Impossible...!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!700||align!+5;jinryuujrmcore.missionSys.Protect;19",
+          "tp!fix!700||align!0;jinryuujrmcore.missionSys.Myself;19",
+          "tp!fix!700||align!-5;jinryuujrmcore.missionSys.Evil;19"
+		]
+	 ]
+  },
+  {
+	 "id":19,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Lord Slug"
+	 ],
+	 "subtitle":[
+		"Lord Slug the Old"
+	 ],
+	 "description":[
+		"Lord Slug seeing your strength, is also trying to stop you! He looks very old but he is far stronger than his henchmen! They also started a device to Terra-Freeze the planet making the atmosphere all black!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.slugOld;H52233;A1741;SLord Slug: You are ruining my plan...;DLord Slug: You are strong indeed..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!1000||align!+5;jinryuujrmcore.missionSys.Protect;20",
+          "tp!fix!1000||align!0;jinryuujrmcore.missionSys.Myself;20",
+          "tp!fix!1000||align!-5;jinryuujrmcore.missionSys.Evil;20"
+		]
+	 ]
+  },
+  {
+	 "id":20,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Lord Slug"
+	 ],
+	 "subtitle":[
+		"Medamatcha & Angila"
+	 ],
+	 "description":[
+		"Others henchmen of Lord Slug are trying to stop you! They are gaining time in order for Lord Slug to make his wish!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.medamatcha;H24001;A800;SMedamatcha: You fools! My babies are gonna love you!;DMedamatcha: WAAAAAAH!!",
+		   "killsame;Nninjinentities.medamatchaClone;M4;H4571;A152",
+		   "kill;Nninjinentities.angila;H27429;A914;SAngila: Let's me have some fun too!;DAngila: You... AAAAAH!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!750||align!+5;jinryuujrmcore.missionSys.Protect;21",
+          "tp!fix!750||align!0;jinryuujrmcore.missionSys.Myself;21",
+          "tp!fix!750||align!-5;jinryuujrmcore.missionSys.Evil;21"
+		]
+	 ]
+  },
+  {
+	 "id":21,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Lord Slug"
+	 ],
+	 "subtitle":[
+		"Lord Slug the Young"
+	 ],
+	 "description":[
+		"Lord Slug was Old but he manages to get a wish for getting his youth again. He is much stronger now! He is also revealed to be an evil Namekian!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.slugYoung;H82233;A2074;Tninjinentities.slugGiant|300|1.2;SLord Slug: Hmmpf... I have to do everything myself...;DLord Slug: Whaat!! WAAAAAAAAAAAAAA!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!1900||align!+5;jinryuujrmcore.missionSys.Protect;22",
+          "tp!fix!1900||align!0;jinryuujrmcore.missionSys.Myself;22",
+          "tp!fix!1900||align!-5;jinryuujrmcore.missionSys.Evil;22"
+		]
+	 ]
+  },
+  {
+	 "id":22,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Lord Slug"
+	 ],
+	 "subtitle":[
+		"Lord Slug is finished"
+	 ],
+	 "description":[
+		"Following Slug's defeat, the atmosphere goes back to normal on Earth."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;23"
+		]
+	 ]
+  },
+  {
+	 "id":23,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Cooler's Revenge"
+	 ],
+	 "subtitle":[
+		"Ambushed by evil force"
+	 ],
+	 "description":[
+		"You were wandering on earth when suddenly you sense some strong strength near you. At least as strong as the commando Ginyu! They are ambushing you!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.salza;H97145;A3238;SSalza: We are Cooler's special squadron!;DSalza: AAA... AAAAAH!",
+		   "kill;Nninjinentities.neiz;H93145;A3104;SNeiz: I heard you were pretty strong!;DNeiz: AYAAAAAAAAAA!!",
+		   "kill;Nninjinentities.dore;H105717;A3524;SDore: Hmpf, he looks weak.;DDore: Damn it...! I.. Can't... AAAAAAARH!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!2600||align!+5;jinryuujrmcore.missionSys.Protect;24",
+          "tp!fix!2600||align!0;jinryuujrmcore.missionSys.Myself;24",
+          "tp!fix!2600||align!-5;jinryuujrmcore.missionSys.Evil;24"
+		]
+	 ]
+  },
+  {
+	 "id":24,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Cooler's Revenge"
+	 ],
+	 "subtitle":[
+		"Brother of Freeza"
+	 ],
+	 "description":[
+		"It seems this men that attacked you were working for Freeza's brother, Cooler! Cooler now wants to fight you!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.cooler;H194572;A6486;SCooler: So you beat my men. Interesting let's see how you can fight.;DCooler: You're strong indeed..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!2800||align!+5;jinryuujrmcore.missionSys.Protect;25",
+          "tp!fix!2800||align!0;jinryuujrmcore.missionSys.Myself;25",
+          "tp!fix!2800||align!-5;jinryuujrmcore.missionSys.Evil;25"
+		]
+	 ]
+  },
+  {
+	 "id":25,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Cooler's Revenge"
+	 ],
+	 "subtitle":[
+		"The fifth form"
+	 ],
+	 "description":[
+		"You were able to fight back against Cooler, but he doesn't seem taken aback at all... He must be hiding some strength..."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.cooler;H194572;A6486;Tninjinentities.coolerFifthForm|25|1.8;SCooler: You really think this was my last form?! I'm not as weak as Freeza! AAAAAAAAAAAAAAAAAAAAH!;DCooler: No...! It can't be...! CURSED YOU!! NOOOOOO!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!3500||align!+5;jinryuujrmcore.missionSys.Protect;26",
+          "tp!fix!3500||align!0;jinryuujrmcore.missionSys.Myself;26",
+          "tp!fix!3500||align!-5;jinryuujrmcore.missionSys.Evil;26"
+		]
+	 ]
+  },
+  {
+	 "id":26,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Cooler's Revenge"
+	 ],
+	 "subtitle":[
+		"Cooler is dead"
+	 ],
+	 "description":[
+		"You managed to send Cooler flying in the direction of the Sun. He dies disintegrated by the Sun."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;27"
+		]
+	 ]
+  },
+  {
+	 "id":27,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Return of Cooler"
+	 ],
+	 "subtitle":[
+		"The Big Gete Star"
+	 ],
+	 "description":[
+		"The liquid metal exterior of a star, named the Big Gete Star, has molds itself around New Namek. Dende senses the plight of his people and calls you for help. It seems there is an army of robots deployed on the planet to enslave the Namekians! Go and stop them!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NNamek",
+		   "killsame;Nninjinentities.cyclopianGuard;M4;H150000;A5000"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!3000||align!+5;jinryuujrmcore.missionSys.Protect;28",
+          "tp!fix!3000||align!0;jinryuujrmcore.missionSys.Myself;28",
+          "tp!fix!3000||align!-5;jinryuujrmcore.missionSys.Evil;28"
+		]
+	 ]
+  },
+  {
+	 "id":28,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Return of Cooler"
+	 ],
+	 "subtitle":[
+		"Cooler is back?!"
+	 ],
+	 "description":[
+		"The leader of the robots emerges and states himself to be \"Cooler\". Cooler admits that he was indeed burned critically in the fires of the Sun, but survived and is now back for revenge. Prepare for Battle!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NNamek",
+		   "kill;Nninjinentities.coolerMetal;H700000;A23333;SMetal Cooler: Now. I believe we have some unfinished business.;DMetal Cooler: Aaaa...! Uug!! AAAAAH!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!5250||align!+5;jinryuujrmcore.missionSys.Protect;29",
+          "tp!fix!5250||align!0;jinryuujrmcore.missionSys.Myself;29",
+          "tp!fix!5250||align!-5;jinryuujrmcore.missionSys.Evil;29"
+		]
+	 ]
+  },
+  {
+	 "id":29,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Return of Cooler"
+	 ],
+	 "subtitle":[
+		"Cooler True Form"
+	 ],
+	 "description":[
+		"You managed to beat Cooler. However, a whole army of Meta-Coolers immediately shows up, this one was just a clone! Outnumbered and drained of energy, you are captured and transported to create Metal Super Warrior for Meta-Cooler Core's army! Meta-Cooler Core begins draining your energy, but this flood the circuitry with too much power and overload it, causing it to collapse. You managed to liberate yourself and you now face the true form of Metal Cooler!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NNamek",
+		   "kill;Nninjinentities.coolerMetalTrueForm;H750000;A25000;SMetal Cooler: I have enough of you! You can't win!;DMetal Cooler: WAA...! WAAA...! WAAAAAAAAAAAAAAAAAA!!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!5500||align!+5;jinryuujrmcore.missionSys.Protect;30",
+          "tp!fix!5500||align!0;jinryuujrmcore.missionSys.Myself;30",
+          "tp!fix!5500||align!-5;jinryuujrmcore.missionSys.Evil;30"
+		]
+	 ]
+  },
+  {
+	 "id":30,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Return of Cooler"
+	 ],
+	 "subtitle":[
+		"Cooler's threat is over"
+	 ],
+	 "description":[
+		"Cooler threat is over for good and the Big Gete Star has been destroyed!"
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;31"
+		]
+	 ]
+  },
+  {
+	 "id":31,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Super Android 13!"
+	 ],
+	 "subtitle":[
+		"Androids? Again?"
+	 ],
+	 "description":[
+		"Even if Dr Gero was killed, his computer still worked on finished some android: Android 13, 14 and 15. 14 and 15 start causing havoc while trying to find you. Try to stop them!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.android14;H850000;A28333;SAndroid 14: Target confirmed!;DAndroid 14: HMMMMM!! WAAAAAAAAAAAAH!!",
+		   "kill;Nninjinentities.android15;H850000;A28333;SAndroid 15: Hmmm...Let the show begin!;DAndroid 15: HeHeHeHe...He...He..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!6100||align!+5;jinryuujrmcore.missionSys.Protect;32",
+          "tp!fix!6100||align!0;jinryuujrmcore.missionSys.Myself;32",
+          "tp!fix!6100||align!-5;jinryuujrmcore.missionSys.Evil;32"
+		]
+	 ]
+  },
+  {
+	 "id":32,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Super Android 13!"
+	 ],
+	 "subtitle":[
+		"Created to kill"
+	 ],
+	 "description":[
+		"You managed to beat 14 and 15. Android 13 then appears & explains that the 3 of them were created to kill you."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.android13;H920000;A30667;SAndroid 13: We were created by Dr. Gero's Computer to destroy you!;DAndroid 13: Uurg... Hmpf this is just starting."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!6200||align!+5;jinryuujrmcore.missionSys.Protect;33",
+          "tp!fix!6200||align!0;jinryuujrmcore.missionSys.Myself;33",
+          "tp!fix!6200||align!-5;jinryuujrmcore.missionSys.Evil;33"
+		]
+	 ]
+  },
+  {
+	 "id":33,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Super Android 13!"
+	 ],
+	 "subtitle":[
+		"The Super Android"
+	 ],
+	 "description":[
+		"Parts of 14 and 15 rise from the ground and fly towards Android 13. He absorbs the components, resulting in a transformation. With his new transformation, 13's power increases greatly."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.android13;H920000;A30667;Tninjinentities.android13Super|20|1.8;SAndroid 13: Android 14 and 15 have been destroyed... Ha Ha Ha!!;DSuper Android 13: You must die! You... must die! You... AAAAAAAAAAAAAR!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!8500||align!+5;jinryuujrmcore.missionSys.Protect;34",
+          "tp!fix!8500||align!0;jinryuujrmcore.missionSys.Myself;34",
+          "tp!fix!8500||align!-5;jinryuujrmcore.missionSys.Evil;34"
+		]
+	 ]
+  },
+  {
+	 "id":34,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Super Android 13!"
+	 ],
+	 "subtitle":[
+		"The end of the Androids"
+	 ],
+	 "description":[
+		"Super Android 13 has finally been destroyed and Dr. Gero's Super Computer shuts down for good. Great job!"
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;35"
+		]
+	 ]
+  },
+  {
+	 "id":35,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Legendary Super Saiyan"
+	 ],
+	 "subtitle":[
+		"The new Vegeta"
+	 ],
+	 "description":[
+		"Paragus is one of the surviving saiyan with his son Broly, they came to Earth to invite Vegeta to a new planet that will be under his rule. You accompany him with the others Z Warriors. Upon arrival you realize that Paragus uses slaves in order to build Vegeta's palace. You got to save the slaves!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NVegeta",
+		   "kill;Nninjinentities.angol;H15000;A500;SAngol: Who are you?!;DAngol: WAAAAARG!!",
+		   "kill;Nninjinentities.moah;H15000;A500;SMoah: ...;DMoah: Uuurg...!!",
+		   "killsame;Nninjinentities.paragusSoldier;M4;H10000;A333"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!1500||align!+5;jinryuujrmcore.missionSys.Protect;36",
+          "tp!fix!1500||align!0;jinryuujrmcore.missionSys.Myself;36",
+          "tp!fix!1500||align!-5;jinryuujrmcore.missionSys.Evil;36"
+		]
+	 ]
+  },
+  {
+	 "id":36,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Legendary Super Saiyan"
+	 ],
+	 "subtitle":[
+		"Broly"
+	 ],
+	 "description":[
+		"Paragus's son, Broly, seems to have a problem with Goku and attacks him from nowhere! Help Goku!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NVegeta",
+		   "kill;Nninjinentities.brolyZBase;H695000;A13167;Tninjinentities.brolyZSsj|100|2.0;SBroly: Kakarot!!;DBroly: Uurg...!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!8000||align!+5;jinryuujrmcore.missionSys.Protect;37",
+          "tp!fix!8000||align!0;jinryuujrmcore.missionSys.Myself;37",
+          "tp!fix!8000||align!-5;jinryuujrmcore.missionSys.Evil;37"
+		]
+	 ]
+  },
+  {
+	 "id":37,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Legendary Super Saiyan"
+	 ],
+	 "subtitle":[
+		"The legendary Super Saiyan Broly"
+	 ],
+	 "description":[
+		"Broly was very strong even capable of becoming Super Saiyan. But according to his father, his real strength is suppressed using a mind-control device. Then, Paragus decides to reveal the truth about why he brought Vegeta and the others onto the planet. He just wants revenge on Vegeta and his father! This planet is doomed to be destroyed by a comet and his son will allow him to get his revenge!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NVegeta",
+		   "kill;Nninjinentities.brolyZSsj;H2580000;A52667;Tninjinentities.brolyZLSsj|50|1.14;SBroly: KAKAROT! KAKARRROOOOOOOOOOOT!!! RAAAAAAAAAGH!!;DBroly: WAAA!! AAAAAAAAAA!! WAWAAAAAAAAAAAAAAAA!!!",
+		   "kill;Nninjinentities.paragus;H80000;2667;SParagus: Let's go my son! Kill them all!;DParagus: Vegetaaa!! You will pay..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!15000||align!+5;jinryuujrmcore.missionSys.Protect;-1",
+          "tp!fix!15000||align!0;jinryuujrmcore.missionSys.Myself;-1",
+          "tp!fix!15000||align!-5;jinryuujrmcore.missionSys.Evil;-1"
+		]
+	 ]
+  },
+  {
+	 "id":-1,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"The Legendary Super Saiyan"
+	 ],
+	 "subtitle":[
+		"The end of New Vegeta"
+	 ],
+	 "description":[
+		"After dispatching Broly, Comet Camori destroys the planet. However, you, the Z-Fighters and the remaining slaves manage to escape in the Capsule Corporation spaceship Piccolo used to get there."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;-2"
+		]
+	 ]
+  },
+  {
+	 "id":-2,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Plan to Eradicate the Saiyans"
+	 ],
+	 "subtitle":[
+		"Gas emitters machine"
+	 ],
+	 "description":[
+		"It seems some gas machine have been placed by some villain on earth! From Bulma's understanding, these machines are destroying all life, and if not stopped the planet will be ruins. It seems many monsters are protecting the machines, you will have to beat them!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.kinkarn;H10000;A333",
+		   "kill;Nninjinentities.arbee;H10000;A333",
+		   "kill;Nninjinentities.ponkarn;H10000;A333",
+		   "kill;Nninjinentities.jiku;H10000;A333",
+		   "kill;Nninjinentities.budo;H10000;A333",
+		   "kill;Nninjinentities.kawazu;H10000;A333",
+		   "kill;Nninjinentities.gure;H10000;A333",
+		   "kill;Nninjinentities.skud;H10000;A333"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!500||align!+5;jinryuujrmcore.missionSys.Protect;38",
+          "tp!fix!500||align!0;jinryuujrmcore.missionSys.Myself;38",
+          "tp!fix!500||align!-5;jinryuujrmcore.missionSys.Evil;38"
+		]
+	 ]
+  },
+  {
+	 "id":38,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Plan to Eradicate the Saiyans"
+	 ],
+	 "subtitle":[
+		"Return of the four"
+	 ],
+	 "description":[
+		"You manage to destroy all machines, except one that is protected by an impenetrable energy barrier. However, Frieza, Cooler, Turles and Lord Slug appear for some reason, and engage you. It is revealed by King Kai that the villains are not real but Ghost Warriors as strong as their original body."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Njinryuudragonblockc.Freeza5;H800000;A26667;SFreeza: You really think you pathetic power will be enough to destroy the barrier?;DFreeza: UUUOOOOR! Curse you...!!",
+		   "kill;Nninjinentities.cooler;H800000;A26667;SCooler: Heh Heh... It's been a while.;DCooler: UUAAAAAAAAARG!",
+		   "kill;Nninjinentities.turles3;H600000;A20000;STurles: Do you know how much I hate you?;DTurles: WAA!!",
+		   "kill;Nninjinentities.slugYoung;H750000;A25000;SLord Slug: I'm so \"happy\" to see you again...;DLord Slug: UARRRRRR!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!7000||align!+5;jinryuujrmcore.missionSys.Protect;39",
+          "tp!fix!7000||align!0;jinryuujrmcore.missionSys.Myself;39",
+          "tp!fix!7000||align!-5;jinryuujrmcore.missionSys.Evil;39"
+		]
+	 ]
+  },  
+  {
+	 "id":39,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Plan to Eradicate the Saiyans"
+	 ],
+	 "subtitle":[
+		"Fighting Hatchiyack"
+	 ],
+	 "description":[
+		"It seems the culprit was Dr. Lychee, one of the only survivors of the Tuffles. The Saiyans not only massacred the entire Tuffle race, but also stole their technology and conquered the planet, renaming it Planet Vegeta. You managed to track down the doctor in a dark Planet, discovering that his Ghost Warriors are generated by a machine called Hatchiyack. It is also revealed that Dr. Lychee is a Ghost Warrior himself. You managed to vaporize him, but his spite towards the Saiyans causes Hatchiyack to exceed its limit and appear in a powerful android body, whose power matches or perhaps even exceeds Broly's."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.hatchiyack;H1800000;A60000;Tninjinentities.hatchiyackGiant|300|1.3||ninjinentities.hatchiyackSuper|300|1.3;SHatchiyack: Grrrr...!;DHatchiyack: Uurg... Wha..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!15000||align!+5;jinryuujrmcore.missionSys.Protect;40",
+          "tp!fix!15000||align!0;jinryuujrmcore.missionSys.Myself;40",
+          "tp!fix!15000||align!-5;jinryuujrmcore.missionSys.Evil;40"
+		]
+	 ]
+  },
+  {
+	 "id":40,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Plan to Eradicate the Saiyans"
+	 ],
+	 "subtitle":[
+		"No more hate"
+	 ],
+	 "description":[
+		"With a very strong attack you managed to kill Hatchiyack. Before the entire planet explodes due to the fierce battle, you and the Dragon Team are transported back to Earth via Goku's Instant Transmission."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		
+		   "nothing;Skip;41"
+		]
+	 ]
+  },
+  {
+	 "id":41,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"The tournament"
+	 ],
+	 "description":[
+		"Having another World Martial Arts Tournament funded by X.S. Cash for his son's birthday, Mr. Satan invites everyone on Earth to a competition. The Dragon Team all go except for Vegeta, and Goku (who is still dead with King Kai) wishes he could compete as they watch the competition on a television. Your first fight will be with Tien."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.tien;H400000;A13333;STien: Hey, let's give these people a good show.;DTien: Aaah..Aaaah..Aaah...You won..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!4000||align!+5;jinryuujrmcore.missionSys.Protect;42",
+          "tp!fix!4000||align!0;jinryuujrmcore.missionSys.Myself;42",
+          "tp!fix!4000||align!-5;jinryuujrmcore.missionSys.Evil;42"
+		]
+	 ]
+  },
+  {
+	 "id":42,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"The tournament #2"
+	 ],
+	 "description":[
+		"Your next opponents is now Trunks!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.trunksFutur;H500000;A16667;Tninjinentities.trunksFuturSsj|100|4.0;STrunks: Hey no need to go full strength, this is just a sparring match.;DTrunks: Damn, you're pretty strong, as always!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!10000||align!+5;jinryuujrmcore.missionSys.Protect;43",
+          "tp!fix!10000||align!0;jinryuujrmcore.missionSys.Myself;43",
+          "tp!fix!10000||align!-5;jinryuujrmcore.missionSys.Evil;43"
+		]
+	 ]
+  },
+  {
+	 "id":43,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"The Intergalactic Fighters"
+	 ],
+	 "description":[
+		"Now the contestants are supposed to face off against the \"Intergalactic Fighters\". It seems they are just Satan's students dressed as aliens. They shouldn't be very strong..."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.zangya;H1500000;A50000;Zangya: ...;DZangya: Hgnn...!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!8000||align!+5;jinryuujrmcore.missionSys.Protect;44",
+          "tp!fix!8000||align!0;jinryuujrmcore.missionSys.Myself;44",
+          "tp!fix!8000||align!-5;jinryuujrmcore.missionSys.Evil;44"
+		]
+	 ]
+  },
+  {
+	 "id":44,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"Something feels off"
+	 ],
+	 "description":[
+		"The last fighter was too strong to be just a student of Satan. You can feel that something is wrong. You go check on the others contestants. You arrived where Krillin was supposed to fight and you found him almost dead! To hell with the tournament, you decide to beat those guys."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.kogu;H1500000;A50000;Tninjinentities.koguSuper|200|1.25;SKogu: What are you doing here? You want to join the deads like your little friend here!? Hehehe!!;DKogu: Ah...Aggh..Uuug...!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!9500||align!+5;jinryuujrmcore.missionSys.Protect;45",
+          "tp!fix!9500||align!0;jinryuujrmcore.missionSys.Myself;45",
+          "tp!fix!9500||align!-5;jinryuujrmcore.missionSys.Evil;45"
+		]
+	 ]
+  },
+  {
+	 "id":45,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"The Hera Clan"
+	 ],
+	 "description":[
+		"You found out that these guys work for Bojack. He is a very strong villain, his goal is to conquer the universe and destroy all those that stand in his way. You will have to fight all of his remaining henchmen."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.bido;H1500000;A50000;SBido: Master Bojack has no equal!;DBido: Uurg...",
+		   "kill;Nninjinentities.zangya;H1500000;A50000;SZangya: The universe is filled with bones of those who dare challenge Master Bojack!;DZangya: AAH!! AAAAAAAAH!!",
+		   "kill;Nninjinentities.bujin;H1500000;A50000;SBujin: Master is not patient, you will be wise to kneel!;DBujin: Wha..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!12000||align!+5;jinryuujrmcore.missionSys.Protect;46",
+          "tp!fix!12000||align!0;jinryuujrmcore.missionSys.Myself;46",
+          "tp!fix!12000||align!-5;jinryuujrmcore.missionSys.Evil;46"
+		]
+	 ]
+  },
+  {
+	 "id":46,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"Bojack"
+	 ],
+	 "description":[
+		"There is only Bojack remaining. He can also transforms like Kogu, but he is even stronger!!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.bojack;H3000000;A100000;Tninjinentities.bojackSuper|200|1.2;SBojack: It's been so long... since I snatch someone's neck!;DBojack: AAAAAAAAAAAAAGGGH!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!20000||align!+5;jinryuujrmcore.missionSys.Protect;48",
+          "tp!fix!20000||align!0;jinryuujrmcore.missionSys.Myself;48",
+          "tp!fix!20000||align!-5;jinryuujrmcore.missionSys.Evil;48"
+		]
+	 ]
+  },
+  {
+	 "id":48,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bojack Unbound"
+	 ],
+	 "subtitle":[
+		"The end of the gang of Bojack"
+	 ],
+	 "description":[
+		"You manage to punch Bojack clean through his stomach, killing him and saving the universe again. The news says that it is Mr. Satan who saved the Earth."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;49"
+		]
+	 ]
+  },
+  {
+	 "id":49,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Broly - Second Coming"
+	 ],
+	 "subtitle":[
+		"Monster Hunter"
+	 ],
+	 "description":[
+		"Goten, Trunks, you and Videl are looking for the Dragon Balls because Videl wants to see Shenron. During the search you decide to help some villagers by killing a monster that was terrorizing them by leaving food for it and hiding. The monster appears and turns out to be a dinosaur."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Njinryuudragonblockc.EntityDino01;H650;A21"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!50||align!+5;jinryuujrmcore.missionSys.Protect;50",
+          "tp!fix!50||align!0;jinryuujrmcore.missionSys.Myself;50",
+          "tp!fix!50||align!-5;jinryuujrmcore.missionSys.Evil;50"
+		]
+	 ]
+  },
+  {
+	 "id":50,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Broly - Second Coming"
+	 ],
+	 "subtitle":[
+		"Wrath of the Saiyan"
+	 ],
+	 "description":[
+		"Early morning you are awakened by loud explosions in the distant. While investigating you are then confronted by Broly in his regular Super Saiyan form."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.brolyZ2Ssj;H4000000;A133333;SBroly: Hehehe... AAAAAAAAAAAAH!!;DBroly: Uurg..."
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!30000||align!+5;jinryuujrmcore.missionSys.Protect;51",
+          "tp!fix!30000||align!0;jinryuujrmcore.missionSys.Myself;51",
+          "tp!fix!30000||align!-5;jinryuujrmcore.missionSys.Evil;51"
+		]
+	 ]
+  },
+  {
+	 "id":51,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Broly - Second Coming"
+	 ],
+	 "subtitle":[
+		"The legendary Super Saiyan Broly #2"
+	 ],
+	 "description":[
+		"You explains to Trunks and Goten that this is Broly, the feared Legendary Super Saiyan, whom you battled alongside some of the other Z Fighters some times ago. Seeing that he's outclassed, Broly follows up by powering up to his Legendary Super Saiyan form!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.brolyZ2Ssj;H4000000;A133333;Tninjinentities.brolyZLSsj|20|1.25;SBroly: Aah! AAAAAAAAAAAAAAH!!!;DBroly: KAKARRROOOOOOOOOOOT!!!! AAAAAAAAAAAAAAAAAAAH!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!37500||align!+5;jinryuujrmcore.missionSys.Protect;52",
+          "tp!fix!37500||align!0;jinryuujrmcore.missionSys.Myself;52",
+          "tp!fix!37500||align!-5;jinryuujrmcore.missionSys.Evil;52"
+		]
+	 ]
+  },
+  {
+	 "id":52,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Broly - Second Coming"
+	 ],
+	 "subtitle":[
+		"Broly meets his end"
+	 ],
+	 "description":[
+		"Broly is blasted into the sun by one of your attack as he screams \"Kakarot!\" and presumably disintegrates in the sun."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;53"
+		]
+	 ]
+  },
+  {
+	 "id":53,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bio-Broly"
+	 ],
+	 "subtitle":[
+		"The Bio-Warriors"
+	 ],
+	 "description":[
+		"It seems that Mr. Satan is blackmailed by his old martial arts rival Jaguar into visiting his laboratory island to fight his Bio-Warriors. Mr. Satan agrees, and departs, followed by you, 18, Trunks, and Goten. Upon arriving, Mr. Satan is coldly greeted by Jaguar, who sets up a tournament for him to fight the Bio-Warriors, but they are more than Mr. Satan can handle. You decide to intervene."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.bioWarrior1;H2000;A66",
+		   "kill;Nninjinentities.bioWarrior2;H2000;A66",
+		   "kill;Nninjinentities.bioWarrior3;H2000;A66",
+		   "kill;Nninjinentities.bioWarrior4;H2000;A66",
+		   "kill;Nninjinentities.bioWarrior5;H2000;A66",
+		   "kill;Nninjinentities.bioWarrior6;H2000;A66"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!500||align!+5;jinryuujrmcore.missionSys.Protect;54",
+          "tp!fix!500||align!0;jinryuujrmcore.missionSys.Myself;54",
+          "tp!fix!500||align!-5;jinryuujrmcore.missionSys.Evil;54"
+		]
+	 ]
+  },
+  {
+	 "id":54,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bio-Broly"
+	 ],
+	 "subtitle":[
+		"Broly again?"
+	 ],
+	 "description":[
+		"Enraged, Jaguar reveals his greatest weapon: a Super Bio-Warrior. But, when you see the Super Bio-Warrior, you recognize him as none other than Broly. You prepare to destroy Broly's clone, but he had sensed the attack. He breaks out of stasis, only to be drenched in the bio-liquid and turns into a horribly deformed, slime covered bio-mutant."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.brolyZ2Ssj;H4200000;A140000;Tninjinentities.brolyZBio|20|0.95;SBroly: OAAAAAAA...!;DBroly: GWAAAAARG!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		  "tp!fix!30000||align!+5;jinryuujrmcore.missionSys.Protect;55",
+          "tp!fix!30000||align!0;jinryuujrmcore.missionSys.Myself;55",
+          "tp!fix!30000||align!-5;jinryuujrmcore.missionSys.Evil;55"
+		]
+	 ]
+  },
+  {
+	 "id":55,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Bio-Broly"
+	 ],
+	 "subtitle":[
+		"Bio-Broly is no more"
+	 ],
+	 "description":[
+		"A tank that had been hit by one of your attack ruptures, causing bio-liquid to shower on Bio-Broly and melt him."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;56"
+		]
+	 ]
+  },
+  {
+	 "id":56,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Fusion Reborn"
+	 ],
+	 "subtitle":[
+		"The Soul Cleansing Machine"
+	 ],
+	 "description":[
+		"The Soul Cleansing Machine is a machine that cleanses evil spirits before they are purified and reincarnated. But the machine has been destroyed, releasing all of the evil energy at once! And a monster of incredible power named Janemba has appeared! Go to the Other World to defeat it!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOtherWorld",
+		   "kill;Nninjinentities.janemba;H5900000;A196667;SJanemba: Ooh? Janemba! Janemba!!;DJanemba: UUUUUH!! AAAAH!! JANEMBA! JANEMBA!!"
+		]
+	 ],
+	 "rewards":[
+		[
+			"tp!fix!42500||align!+5;jinryuujrmcore.missionSys.Protect;57",
+			"tp!fix!42500||align!0;jinryuujrmcore.missionSys.Myself;57",
+			"tp!fix!42500||align!-5;jinryuujrmcore.missionSys.Evil;57"
+		]
+	 ]
+  },
+  {
+	 "id":57,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Fusion Reborn"
+	 ],
+	 "subtitle":[
+		"Super Janemba"
+	 ],
+	 "description":[
+		"Vegeta and Goku arrive to help. You were able to beat Janemba but it seems he is transforming into something else... And something a lot stronger too! Goku think maybe Fusion could help..."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOtherWorld",
+		   "kill;Nninjinentities.janemba;H5900000;A196667;Tninjinentities.janembaSuper|20|1.5;SJanemba: Uuuuh! Janemba...! Hmmm...;DJanemba: Aaaa... AAAAAAAAAAAAHH!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		   	"tp!fix!67500||align!+5;jinryuujrmcore.missionSys.Protect;58",
+			"tp!fix!67500||align!0;jinryuujrmcore.missionSys.Myself;58",
+			"tp!fix!67500||align!-5;jinryuujrmcore.missionSys.Evil;58"
+		]
+	 ]
+  },
+  {
+	 "id":58,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Fusion Reborn"
+	 ],
+	 "subtitle":[
+		"Super Gogeta"
+	 ],
+	 "description":[
+		"You managed to beat Janemba! In the meantime Goku and Vegeta have merged into Gogeta. They look at you dumbfounded. It seems they didn't like using the fusion for nothing and they would like to spar with you a bit."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOtherWorld",
+		   "kill;Nninjinentities.gogetaSsj;H12000000;A400000;SGogeta: I am not Goku or Vegeta, I'm Gogeta! You beat Janemba, impressive, let's see what you can do against me!;DGogeta: Damn, I understand now how you could beat Janemba..."
+		]
+	 ],
+	 "rewards":[
+		[
+		   	"tp!fix!100000||align!+5;jinryuujrmcore.missionSys.Protect;59",
+			"tp!fix!100000||align!0;jinryuujrmcore.missionSys.Myself;59",
+			"tp!fix!100000||align!-5;jinryuujrmcore.missionSys.Evil;59"
+		]
+	 ]
+  },
+  {
+	 "id":59,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Fusion Reborn"
+	 ],
+	 "subtitle":[
+		"Other World at peace"
+	 ],
+	 "description":[
+		"Thanks to you, hell is returned to normal, All of the souls return to Other World, and King Yemma is freed with lots work to do."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;60"
+		]
+	 ]
+  },
+  {
+	 "id":60,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Wrath of the Dragon"
+	 ],
+	 "subtitle":[
+		"The legendary warrior Tapion"
+	 ],
+	 "description":[
+		"An old man introduces himself as Hoi, and would like that you help him in releasing the legendary warrior Tapion from the music box he is being held in, as the Earth would be endangered if he were not released. The box can't be open with force, you decide to open it using Dragon Balls. Tapion after being release is angry and ask to be sealed again! But at the same time it seems some big Monster is attacking the city! Some kind of giant legs..."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.hirudegarnBottom;H5000000;A166667"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "tp!fix!42000||align!+5;jinryuujrmcore.missionSys.Protect;61",
+		   "tp!fix!42000||align!0;jinryuujrmcore.missionSys.Myself;61",
+		   "tp!fix!42000||align!-5;jinryuujrmcore.missionSys.Evil;61"
+		]
+	 ]
+  },
+  {
+	 "id":61,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Wrath of the Dragon"
+	 ],
+	 "subtitle":[
+		"The monster Hirudegarn"
+	 ],
+	 "description":[
+		"Tapion, no longer angry, explains the whole story: On planet Konats, a group of black magicians, the Kashvar, use a spell on a statue to bring the monster Hirudegarn it depicted to life. Since Hirudegarn can't be killed at the time, his upper-half is sealed in Tapion and the other half in his little brother Minotia. However, fearing that the monster might reappear someday, the brothers are separated, each sealed in a music box and shot into opposite ends of the galaxy. But it seems somehow, that the black magician Hoi manages to release the lower part of Hirudegarn. Tapion then ask you to kill him in order to prevent the other half to be released! However, Hoi and the lower half of the Hirudegarn appear to stop anyone from killing Tapion. The power of the lower half causes the upper half in Tapion's body to react and release itself. Hoi succeeds in his plans, and with the monster back together, he believes nothing can stop him."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.hirudegarnUpper;H5000000;A166667;Tninjinentities.hirudegarnPre|20|1.4;SHirudegarn: AAAR!;DHirudegarn: OOOAAAAAAAARRRR! AAAAAR!!!",
+		   "kill;Nninjinentities.hoi;H5000;A167;SHoi: Now witness the true power of Hirudegarn!!;DHoi: Noooo!"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "tp!fix!52000||align!+5;jinryuujrmcore.missionSys.Protect;62",
+		   "tp!fix!52000||align!0;jinryuujrmcore.missionSys.Myself;62",
+		   "tp!fix!52000||align!-5;jinryuujrmcore.missionSys.Evil;62"
+		]
+	 ]
+  },
+  {
+	 "id":62,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Wrath of the Dragon"
+	 ],
+	 "subtitle":[
+		"The monster Hirudegarn #2"
+	 ],
+	 "description":[
+		"Hirudegarn is believed to be defeated, but the attack only causes him to evolve into his second, more powerful form!"
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.hirudegarnPre;H7000000;A233333;Tninjinentities.hirudegarnPost|20|1.25;SHirudegarn: ...OOOOOOOOOORRH!!! AAAOOOOOOORR!!;DHirudegarn: RROOOOOOOOOOOOOOOOOOOOORR!!!!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "tp!fix!72000||align!+5;jinryuujrmcore.missionSys.Protect;63",
+		   "tp!fix!72000||align!0;jinryuujrmcore.missionSys.Myself;63",
+		   "tp!fix!72000||align!-5;jinryuujrmcore.missionSys.Evil;63"
+		]
+	 ]
+  },
+  {
+	 "id":63,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Wrath of the Dragon"
+	 ],
+	 "subtitle":[
+		"Dragon Fist"
+	 ],
+	 "description":[
+		"With the monster gone for good, Tapion uses Bulma's Time Machine to go back to his own planet, after giving his sword to Trunks."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;64"
+		]
+	 ]
+  },
+  {
+	 "id":64,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Yo! Son Goku and His Friends Return!!"
+	 ],
+	 "subtitle":[
+		"Tarble"
+	 ],
+	 "description":[
+		"Two saiyans spaceships just landed on Earth. A sharp-eyed Saiyan and a small alien emerge from the two spaceships. The Saiyan introduces himself as Tarble, along with his wife Gure. He is Vegeta's brother. Tarble ask if you could help him defeat Abo and Kado who have ravaged his planet and pursued him to Earth."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.abo;H80000;A2667;SAbo: What? You think you're strong?;DAbo: You are not bad...",
+		   "kill;Nninjinentities.kado;H80000;A2667;SKado: Are you mocking us?;DKado: Huff...Puff..."   
+		]
+	 ],
+	 "rewards":[
+		[
+		   "tp!fix!2500||align!+5;jinryuujrmcore.missionSys.Protect;65",
+		   "tp!fix!2500||align!0;jinryuujrmcore.missionSys.Myself;65",
+		   "tp!fix!2500||align!-5;jinryuujrmcore.missionSys.Evil;65"
+		]
+	 ]
+  },
+    {
+	 "id":65,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Yo! Son Goku and His Friends Return!!"
+	 ],
+	 "subtitle":[
+		"The ultimate fusion?"
+	 ],
+	 "description":[
+		"You are just too strong for them... Abo and Kado decides to merge together! They become Aka! But they doesn't seems that strong still..."
+	 ],
+	 "objectives":[
+		[
+		   "start",
+		   "dim2;NOverworld",
+		   "kill;Nninjinentities.aka;H200000;A6667;SAka: HeHeHe! Take this!!;DAka: OOOuuuurggg?! Aaaa...!!"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "tp!fix!3000||align!+5;jinryuujrmcore.missionSys.Protect;66",
+		   "tp!fix!3000||align!0;jinryuujrmcore.missionSys.Myself;66",
+		   "tp!fix!3000||align!-5;jinryuujrmcore.missionSys.Evil;66"
+		]
+	 ]
+  },
+  {
+	 "id":66,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"Yo! Son Goku and His Friends Return!!"
+	 ],
+	 "subtitle":[
+		"The strongest"
+	 ],
+	 "description":[
+		"Aka is finally defeated, and the battle is over. Even if he was really strong, even stronger than Freeza, you manage to beat him easily, this show how strong you really are."
+	 ],
+	 "objectives":[
+		[
+		   "skip"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Skip;67"
+		]
+	 ]
+  },
+  {
+	 "id":67,
+	 "translated":true,
+	 "props":[
+		"default"
+	 ],
+	 "align":[
+		"neutral"
+	 ],
+	 "title":[
+		"dbc.sagasystem.credits"
+	 ],
+	 "subtitle":[
+		"End"
+	 ],
+	 "description":[
+		"You've finished the movie saga, well done!"
+	 ],
+	 "objectives":[
+		[
+		   "End"
+		]
+	 ],
+	 "rewards":[
+		[
+		   "nothing;Next;67"
+		]
+	 ]
+  }
+]
+}

@@ -1,0 +1,15 @@
+# Your item's name the player will see. It can contain color codes for colored names.
+DisplayName: My TP Item
+# Your item's lore (tooltip description), see the default values for examples to what can be used
+# Each '-' represents a new line.
+Lore: 
+- ThisIsLoreWithoutSpaces
+- This is lore with spaces
+- §cThis is color coded lore
+- \u00A7bThis is color coded lore
+# The amount of training points to give the player.
+Amount: 10
+# Whether the item should be owned by a player or not. false by default.
+SoulBound: false
+# How many seconds should the item be unusable after use. Default value is 1 second.
+Cooldown: 1

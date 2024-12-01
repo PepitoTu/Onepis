@@ -1,0 +1,6358 @@
+{
+  "name": "Dragon Block C Main Saga",
+  "desc": "An alternate story for the DBC mod based off on the Dragon Ball series. Based on the manga",
+  "authors": "JinRyuu, Ben, Hedaox, FinTheHuman, JakeTheDog",
+  "version": "1.2.4",
+  "mods": "DBC, ninjinentities",
+  "settings": {
+    "repeat": "0",
+    "unlock": "",
+    "vars": ""
+  },
+  "missions": [
+    {
+      "id": 0,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "ninjinentities.sagasystem.db1"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.0.title"
+      ],
+      "description": [
+        "dbc.sagasystem.0.desc"
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;jinryuujrmcore.Next;1"
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Bandit"
+      ],
+      "subtitle": [
+        "Attack of the bandit"
+      ],
+      "description": [
+        "Look out! A bandit with a sword is threatening you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BearThief;H60;A3;SBandit: Ahaha, you're gonna die!;DBandit: Aarg..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!10||align!+5;jinryuujrmcore.missionSys.Protect;2",
+          "tp!fix!10||align!0;jinryuujrmcore.missionSys.Myself;2",
+          "tp!fix!10||align!-5;jinryuujrmcore.missionSys.Evil;2"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The child Monkey"
+      ],
+      "subtitle": [
+        "A child with a tail."
+      ],
+      "description": [
+        "You meet a wild child with a monkey tail who seems to want to fight..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuKid1;H80;A4;SGoku: Hey! Hi! I'm Son Goku. You look strong... Fight me!;DGoku: You are very strong! We should train together later!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!15||align!+5;jinryuujrmcore.missionSys.Protect;3",
+          "tp!fix!15||align!0;jinryuujrmcore.missionSys.Myself;3",
+          "tp!fix!15||align!-5;jinryuujrmcore.missionSys.Evil;3"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The thief."
+      ],
+      "subtitle": [
+        "Yamcha the thief."
+      ],
+      "description": [
+        "A young man comes up to you. He seems to be quite aggressive."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.yamcha1;H85;A4;SYamcha: Hi! My name is Yamcha. You may be nice or not, I can't let you go without you giving me your money...;DYamcha: Aaah my tooth! You will pay for that!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!17||align!+5;jinryuujrmcore.missionSys.Protect;4",
+          "tp!fix!17||align!0;jinryuujrmcore.missionSys.Myself;4",
+          "tp!fix!17||align!-5;jinryuujrmcore.missionSys.Evil;4"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.emperorpilaf"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.3.title"
+      ],
+      "description": [
+        "dbc.sagasdb.3.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.DBMai;H30;A1;Sdbc.sagasdb.3.3;Ddbc.sagasdb.3.d3",
+          "kill;Njinryuudragonblockc.DBShu;H30;A1;Sdbc.sagasdb.3.2;Ddbc.sagasdb.3.d2",
+          "kill;Njinryuudragonblockc.DBPilaf;H25;A1;Sdbc.sagasdb.3.1;Ddbc.sagasdb.3.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!10||align!+5;jinryuujrmcore.missionSys.Protect;5",
+          "tp!fix!10||align!0;jinryuujrmcore.missionSys.Myself;5",
+          "tp!fix!10||align!-5;jinryuujrmcore.missionSys.Evil;5"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.emperorpilaf"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.4.title"
+      ],
+      "description": [
+        "dbc.sagasdb.4.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.DBMaiMecha;H60;A2;Sdbc.sagasdb.4.3;Ddbc.sagasdb.4.d3",
+          "kill;Njinryuudragonblockc.DBShuMecha;H55;A2;Sdbc.sagasdb.4.2;Ddbc.sagasdb.4.d2",
+          "kill;Njinryuudragonblockc.DBPilafMecha;H45;A2;Sdbc.sagasdb.4.1;Ddbc.sagasdb.4.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!19||align!+5;jinryuujrmcore.missionSys.Protect;6",
+          "tp!fix!19||align!0;jinryuujrmcore.missionSys.Myself;6",
+          "tp!fix!19||align!-5;jinryuujrmcore.missionSys.Evil;6"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.emperorpilaf"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.5.title"
+      ],
+      "description": [
+        "dbc.sagasdb.5.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.DBPilafMechaCombined;H100;A3;Sdbc.sagasdb.5.1;Ddbc.sagasdb.5.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "item!jinryuudragonblockc:ItemDragonBlock,1;Next;7"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Turtle Hermit"
+      ],
+      "subtitle": [
+        "The grand master of the turtles"
+      ],
+      "description": [
+        "If you are looking to become more powerful, go see Turtle Hermit also called Muten Roshi. He lives in the islands in the South-East."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.roshi;GHmm... You want to become my student? You clearly have the potential. I can teach you a thing or two... ;BI'm fine with that!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;8"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Turtle School Training"
+      ],
+      "subtitle": [
+        "The beginning of the Turtle School Training."
+      ],
+      "description": [
+        "Ask Turtle Hermit what you have to do for your training."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.roshi;GI could give you the full turtle school kimono but I have only one copy... And my other students have taken the bottom and the top. For you it remains only the boots... If you want to recover the rest you will have to beat my others students. You should find them in the islands nearby, or on the mainland.;BOkay."
+        ]
+      ],
+      "rewards": [
+        [
+          "item!jinryuudragonblockc:KameBoots1,1;Next;9"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Turtle School Training"
+      ],
+      "subtitle": [
+        "Training with Krillin"
+      ],
+      "description": [
+        "Krillin is a student recent Turtle Hermit, trying to beat them to prove your strength. Turtle Hermit said that he was in one of the islands in the area, but it can also be in the continent."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.krillinKid1;H90;A4;SKrillin: Ah, I was looking for you, I was told that a new student had appeared and that he was very strong. I don't believe it for a second! I will beat you to a pulp, haha!;DKrillin: I must admit that you are a bit strong..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!20||align!+5||item!jinryuudragonblockc:GiFighterLeg1;jinryuujrmcore.missionSys.Protect;10",
+          "tp!fix!20||align!0||item!jinryuudragonblockc:GiFighterLeg1;jinryuujrmcore.missionSys.Myself;10",
+          "tp!fix!20||align!-5||item!jinryuudragonblockc:GiFighterLeg1;jinryuujrmcore.missionSys.Evil;10"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Turtle School Training"
+      ],
+      "subtitle": [
+        "Training with Goku"
+      ],
+      "description": [
+        "After you beat Krillin it seems that another student wants to fight against you. You recognize his face, and especially his rather unique hair. This is Son Goku!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuKid1;H100;A4;SGoku: Hey, I recognize you! I knew that we will meet again! I am stronger than before, and this time I'll defeat you!;DGoku: Ah... Ah... You're really strong... But I can't wait to fight again!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!22||align!+5||item!jinryuudragonblockc:KameTorso1;jinryuujrmcore.missionSys.Protect;11",
+          "tp!fix!22||align!0||item!jinryuudragonblockc:KameTorso1;jinryuujrmcore.missionSys.Myself;11",
+          "tp!fix!22||align!-5||item!jinryuudragonblockc:KameTorso1;jinryuujrmcore.missionSys.Evil;11"
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "End of training"
+      ],
+      "subtitle": [
+        "End of the Turtle School training"
+      ],
+      "description": [
+        "You beat the two current Turtle Hermit students. Go back to the turtle master."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.roshi;GYou have beaten my two students?! Even goku?! Well I did not think you go it in you... You are now officially one of my students.;BThanks."
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;12"
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.dbtournament"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.6.title"
+      ],
+      "description": [
+        "dbc.sagasdb.6.desc"
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;jinryuujrmcore.Next;13"
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.dbtournament"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.7.title"
+      ],
+      "description": [
+        "dbc.sagasdb.7.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Bacterian;H80;A3;Sdbc.sagasdb.7.1;Ddbc.sagasdb.7.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!23||align!+5;jinryuujrmcore.missionSys.Protect;14",
+          "tp!fix!23||align!0;jinryuujrmcore.missionSys.Myself;14",
+          "tp!fix!23||align!-5;jinryuujrmcore.missionSys.Evil;14"
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.dbtournament"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.8.title"
+      ],
+      "description": [
+        "dbc.sagasdb.8.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.yamcha1;H120;A4;Sdbc.sagasdb.8.1;Ddbc.sagasdb.8.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!24||align!+5;jinryuujrmcore.missionSys.Protect;15",
+          "tp!fix!24||align!0;jinryuujrmcore.missionSys.Myself;15",
+          "tp!fix!24||align!-5;jinryuujrmcore.missionSys.Evil;15"
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.dbtournament"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.9.title"
+      ],
+      "description": [
+        "dbc.sagasdb.9.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.JackieChun;H150;A5;Tjinryuudragonblockc.JackieChun2|200|1.1;Sdbc.sagasdb.9.1;Ddbc.sagasdb.10.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!26||align!+5;jinryuujrmcore.missionSys.Protect;16",
+          "tp!fix!26||align!0;jinryuujrmcore.missionSys.Myself;16",
+          "tp!fix!26||align!-5;jinryuujrmcore.missionSys.Evil;16"
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Red Ribbon"
+      ],
+      "subtitle": [
+        "The Red Ribbon Army"
+      ],
+      "description": [
+        "A big Mecha get in your way, prepare for battle!!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.EntityRRMecha;H140;A5;SMecha: Beep Beep, target spotted!;DMecha: Biiirp?^$*ù..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!20||align!+5;jinryuujrmcore.missionSys.Protect;17",
+          "tp!fix!20||align!0;jinryuujrmcore.missionSys.Myself;17",
+          "tp!fix!20||align!-5;jinryuujrmcore.missionSys.Evil;17"
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.12.title"
+      ],
+      "description": [
+        "dbc.sagasdb.12.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.ColonelSilver;H120;A4;Sdbc.sagasdb.12.1;Ddbc.sagasdb.12.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!27||align!+5;jinryuujrmcore.missionSys.Protect;18",
+          "tp!fix!27||align!0;jinryuujrmcore.missionSys.Myself;18",
+          "tp!fix!27||align!-5;jinryuujrmcore.missionSys.Evil;18"
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.13.title"
+      ],
+      "description": [
+        "dbc.sagasdb.13.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.MajorMetallitron;H180;A4;Sdbc.sagasdb.13.1;Ddbc.sagasdb.13.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!28||align!+5;jinryuujrmcore.missionSys.Protect;19",
+          "tp!fix!28||align!0;jinryuujrmcore.missionSys.Myself;19",
+          "tp!fix!28||align!-5;jinryuujrmcore.missionSys.Evil;19"
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.14.title"
+      ],
+      "description": [
+        "dbc.sagasdb.14.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.NinjaMurasaki;H130;A4;Sdbc.sagasdb.14.1;Ddbc.sagasdb.14.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!28||align!+5;jinryuujrmcore.missionSys.Protect;20",
+          "tp!fix!28||align!0;jinryuujrmcore.missionSys.Myself;20",
+          "tp!fix!28||align!-5;jinryuujrmcore.missionSys.Evil;20"
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.15.title"
+      ],
+      "description": [
+        "dbc.sagasdb.15.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Android8;H190;A2;Sdbc.sagasdb.15.1;Ddbc.sagasdb.15.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!28||align!+5;jinryuujrmcore.missionSys.Protect;21",
+          "tp!fix!28||align!0;jinryuujrmcore.missionSys.Myself;21",
+          "tp!fix!28||align!-5;jinryuujrmcore.missionSys.Evil;21"
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.16.title"
+      ],
+      "description": [
+        "dbc.sagasdb.16.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Buyon;H250;A4;Sdbc.sagasdb.16.1;Ddbc.sagasdb.16.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!30||align!+5;jinryuujrmcore.missionSys.Protect;22",
+          "tp!fix!30||align!0;jinryuujrmcore.missionSys.Myself;22",
+          "tp!fix!30||align!-5;jinryuujrmcore.missionSys.Evil;22"
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.17.title"
+      ],
+      "description": [
+        "dbc.sagasdb.17.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.GeneralWhite;H145;A5;Sdbc.sagasdb.17.1;Ddbc.sagasdb.17.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!28||align!+5;jinryuujrmcore.missionSys.Protect;23",
+          "tp!fix!28||align!0;jinryuujrmcore.missionSys.Myself;23",
+          "tp!fix!28||align!-5;jinryuujrmcore.missionSys.Evil;23"
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Blue"
+      ],
+      "subtitle": [
+        "The General Blue "
+      ],
+      "description": [
+        "The General Blue is a member of the Red Ribbon Army, he is bloodthirsty and merciless. Prepare yourself for a fight."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.generalBlue;H150;A5;SBlue: Ah I know you, according to our information you possesses a dragon ball, you will have to die!;DBlue: Me... bleeding... impossible..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!27||align!+5;jinryuujrmcore.missionSys.Protect;24",
+          "tp!fix!27||align!0;jinryuujrmcore.missionSys.Myself;24",
+          "tp!fix!27||align!-5;jinryuujrmcore.missionSys.Evil;24"
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Karine"
+      ],
+      "subtitle": [
+        "The Master Karine"
+      ],
+      "description": [
+        "The master Karine is a hermit who lives in a very large tower. If you want to become stronger you should go see him. the tower is located below the palace of Kami, in the North-West."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.karin;GHello, I'm Master Karin, congratulations on your ascent. If you don't have impure motives, I can teach you a thing or two and I can also give you senzus. It is a magic bean which removes hunger and heals all wounds.;BOkay."
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;25"
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Tao"
+      ],
+      "subtitle": [
+        "The Mercenary Taopaipai"
+      ],
+      "description": [
+        "The Mercenary Taopaipai was recruited by the Red Ribbon to eliminate you. He might attack you at any time."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.MercenaryTao;H200;A7;STao: I am Taopaipai, a real star, among hitmans. Unfortunately I did not come to sign autographs... hahaha!;DTao: How... I can not believe it..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!30||align!+5;jinryuujrmcore.missionSys.Protect;26",
+          "tp!fix!30||align!0;jinryuujrmcore.missionSys.Myself;26",
+          "tp!fix!30||align!-5;jinryuujrmcore.missionSys.Evil;26"
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Goku"
+      ],
+      "subtitle": [
+        "The return of Goku."
+      ],
+      "description": [
+        "Goku comes in front of you, determined, then a friendly grin appears on his face. It seems he want to fight!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuKid2;H250;A8;SGoku: Did you take care of Taopaipai? Great, he was causing problems for Upa and his father. Well, I would like to take revenge for the last time! Did you climb Karine's tower?! Me too and I'm much stronger now!;DGoku: Ugh... I'm going to have to train more than that... "
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!35||align!+5;jinryuujrmcore.missionSys.Protect;27",
+          "tp!fix!35||align!0;jinryuujrmcore.missionSys.Myself;27",
+          "tp!fix!35||align!-5;jinryuujrmcore.missionSys.Evil;27"
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.20.title"
+      ],
+      "description": [
+        "dbc.sagasdb.20.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Njinryuudragonblockc.RedRibbonSoldier;M2;H40;A5",
+          "killsame;Njinryuudragonblockc.RedRibbonSoldier2;M2;H40;A10",
+          "killsame;Njinryuudragonblockc.RedRibbonSoldier3;M2;H40;A20",
+          "killsame;Njinryuudragonblockc.RedRibbonSoldierB;M2;H40;A5",
+          "killsame;Njinryuudragonblockc.RedRibbonSoldierB2;M2;H40;A10",
+          "killsame;Njinryuudragonblockc.RedRibbonSoldierB3;M2;H40;A20"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!30||align!+5;jinryuujrmcore.missionSys.Protect;28",
+          "tp!fix!30||align!0;jinryuujrmcore.missionSys.Myself;28",
+          "tp!fix!30||align!-5;jinryuujrmcore.missionSys.Evil;28"
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.redribbon"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.21.title"
+      ],
+      "description": [
+        "dbc.sagasdb.21.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.OfficerBlack3;H300;A6;Sdbc.sagasdb.21.1;Ddbc.sagasdb.21.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!36||align!+5;jinryuujrmcore.missionSys.Protect;29",
+          "tp!fix!36||align!0;jinryuujrmcore.missionSys.Myself;29",
+          "tp!fix!36||align!-5;jinryuujrmcore.missionSys.Evil;29"
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.fortunetellerbaba"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.22.title"
+      ],
+      "description": [
+        "dbc.sagasdb.22.desc"
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;jinryuujrmcore.Next;30"
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.fortunetellerbaba"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.23.title"
+      ],
+      "description": [
+        "dbc.sagasdb.23.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.FangsTheVampire;H180;A6;Sdbc.sagasdb.23.1;Ddbc.sagasdb.23.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!33||align!+5;jinryuujrmcore.missionSys.Protect;31",
+          "tp!fix!33||align!0;jinryuujrmcore.missionSys.Myself;31",
+          "tp!fix!33||align!-5;jinryuujrmcore.missionSys.Evil;31"
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.fortunetellerbaba"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.24.title"
+      ],
+      "description": [
+        "dbc.sagasdb.24.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.SeeThroughTheInvisibleMan;H100;A3;Sdbc.sagasdb.24.1;Ddbc.sagasdb.24.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!33||align!+5;jinryuujrmcore.missionSys.Protect;32",
+          "tp!fix!33||align!0;jinryuujrmcore.missionSys.Myself;32",
+          "tp!fix!33||align!-5;jinryuujrmcore.missionSys.Evil;32"
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.fortunetellerbaba"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.25.title"
+      ],
+      "description": [
+        "dbc.sagasdb.25.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BandagesTheMummy;H255;A8;Sdbc.sagasdb.25.1;Ddbc.sagasdb.25.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!35||align!+5;jinryuujrmcore.missionSys.Protect;33",
+          "tp!fix!35||align!0;jinryuujrmcore.missionSys.Myself;33",
+          "tp!fix!35||align!-5;jinryuujrmcore.missionSys.Evil;33"
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.fortunetellerbaba"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.26.title"
+      ],
+      "description": [
+        "dbc.sagasdb.26.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.SpikeTheDevil;H245;A9;Sdbc.sagasdb.26.1;Ddbc.sagasdb.26.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!37||align!+5;jinryuujrmcore.missionSys.Protect;34",
+          "tp!fix!37||align!0;jinryuujrmcore.missionSys.Myself;34",
+          "tp!fix!37||align!-5;jinryuujrmcore.missionSys.Evil;34"
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.fortunetellerbaba"
+      ],
+      "subtitle": [
+        "dbc.sagasdb.27.title"
+      ],
+      "description": [
+        "dbc.sagasdb.27.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.GrandpaGohan2;H300;A10;Sdbc.sagasdb.27.1;Ddbc.sagasdb.27.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!39||align!+5;jinryuujrmcore.missionSys.Protect;35",
+          "tp!fix!39||align!0;jinryuujrmcore.missionSys.Myself;35",
+          "tp!fix!39||align!-5;jinryuujrmcore.missionSys.Evil;35"
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Tournament"
+      ],
+      "subtitle": [
+        "Training for the tournament."
+      ],
+      "description": [
+        "Turtle Hermit and his students are coming to see you to train for the next tournament."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.yamcha2;H250;A8;SYamcha: Hi, you remember me? And yeah, I joined the Turtle School too, hahaha! Let's see if you can follow me.;DYamcha: Always so strong I see...",
+          "kill;Nninjinentities.krillinKid2;H260;A9;SKrillin: The last time, you beat me, but this time it will not be the same!;DKrillin: Ugh... you defeated me again..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!45||align!+5;jinryuujrmcore.missionSys.Protect;36",
+          "tp!fix!45||align!0;jinryuujrmcore.missionSys.Myself;36",
+          "tp!fix!45||align!-5;jinryuujrmcore.missionSys.Evil;36"
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Tournament part 2"
+      ],
+      "subtitle": [
+        "Training for the tournament."
+      ],
+      "description": [
+        "Turtle Hermit and his students are coming to see you to train for the next tournament."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.DBMasterRoshi;H270;A9;Tjinryuudragonblockc.DBMasterRoshi2|150|1.1;SRoshi: Sorry for my students, they are still struggling to accept their defeat... Well, I know how powerful you are, let's see if you manage to keep up with me, the master!;DRoshi: Impressive..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!50||align!+5;jinryuujrmcore.missionSys.Protect;37",
+          "tp!fix!50||align!0;jinryuujrmcore.missionSys.Myself;37",
+          "tp!fix!50||align!-5;jinryuujrmcore.missionSys.Evil;37"
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Tournament part 3"
+      ],
+      "subtitle": [
+        "The unknown man with three eyes."
+      ],
+      "description": [
+        "A stranger approaches you. He is bald and has one more eye in the middle of the forehead. It is accompanied by a small person with pale skin. It seems like they want to fight you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.chiaotzu1;H280;A9;DChiaotzu: Oof...",
+          "kill;Nninjinentities.tien;H325;A11;STien: Hey you! I'm Tien, I saw you beat that Turtle Hermit and its students. Chiaotzu and I want to warm up a bit with you, but be aware, I am going to crush you in less than 30 seconds!;DTien: Bastaard... you are powerful..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!60||align!+5;jinryuujrmcore.missionSys.Protect;38",
+          "tp!fix!60||align!0;jinryuujrmcore.missionSys.Myself;38",
+          "tp!fix!60||align!-5;jinryuujrmcore.missionSys.Evil;38"
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Piccolo"
+      ],
+      "subtitle": [
+        "The demon's sons."
+      ],
+      "description": [
+        "Piccolo is a fearsome bloodthirsty tyrant, also called the demon king. He is able to give birth to strong demons, it seems his goal is to kill any strong martial arts expert and to gather the Dragon Balls. You just found one of his sons, that already have killed Krillin."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.tambourine;H315;A10;STambourine: What do you want ? You want to be killed like the small bald one ?;DTambourine: Whaa.. Aaarg...!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!50||align!+5;jinryuujrmcore.missionSys.Protect;39",
+          "tp!fix!50||align!0;jinryuujrmcore.missionSys.Myself;39",
+          "tp!fix!50||align!-5;jinryuujrmcore.missionSys.Evil;39"
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Piccolo"
+      ],
+      "subtitle": [
+        "The demon's sons."
+      ],
+      "description": [
+        "Another of Piccolo's sons is looking for Dragon Balls. He founds you while he was searching and he decides to take you on to avenge his brother."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.cymbal;H330;A11;SCymbal: Hey you! I will make you suffer!;DCymbal: How...?!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!50||align!+5;jinryuujrmcore.missionSys.Protect;40",
+          "tp!fix!50||align!0;jinryuujrmcore.missionSys.Myself;40",
+          "tp!fix!50||align!-5;jinryuujrmcore.missionSys.Evil;40"
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Piccolo"
+      ],
+      "subtitle": [
+        "King of the demons."
+      ],
+      "description": [
+        "Piccolo decided to take you on personally, you pose to much of a threat to him. He arrives next to you and intends to kill you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.piccoloDaimaoOld;H380;A13;SPiccolo: You must be strong, since you killed my demons. It's been a long time since I wanted to kill someone so much!;DPiccolo: I understand now how you manage to beat them..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!55||align!+5;jinryuujrmcore.missionSys.Protect;41",
+          "tp!fix!55||align!0;jinryuujrmcore.missionSys.Myself;41",
+          "tp!fix!55||align!-5;jinryuujrmcore.missionSys.Evil;41"
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Piccolo"
+      ],
+      "subtitle": [
+        "Piccolo the young demon."
+      ],
+      "description": [
+        "Piccolo manages to flee from you and to gather the dragon balls in order to gain his youth back. He is now stronger than ever! He came back to kill you with one of his new son."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.piccoloDaimaoYoung;H420;A14;SPiccolo: Your name is Drum, show him your strength!;DPiccolo: How ... dare you...",
+          "kill;Nninjinentities.drum;H360;A12;SDrum: Keh Keh Keh!;DDrum: GUARRG...!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!65||align!+5;jinryuujrmcore.missionSys.Protect;42",
+          "tp!fix!65||align!0;jinryuujrmcore.missionSys.Myself;42",
+          "tp!fix!65||align!-5;jinryuujrmcore.missionSys.Evil;42"
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Piccolo"
+      ],
+      "subtitle": [
+        "King Piccolo Daimao."
+      ],
+      "description": [
+        "Piccolo is now going to fight seriously against you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.piccoloDaimaoYoung;H460;A15;SPiccolo: I will exterminate you!!;DPiccolo: How... is this possible... My son... avenge me..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!70||align!+5;jinryuujrmcore.missionSys.Protect;43",
+          "tp!fix!70||align!0;jinryuujrmcore.missionSys.Myself;43",
+          "tp!fix!70||align!-5;jinryuujrmcore.missionSys.Evil;43"
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Kami"
+      ],
+      "subtitle": [
+        "Kami, The guardian of earth"
+      ],
+      "description": [
+        "Before your fight against him, Piccolo killed Shenron, the dragon who grants wishes. The only one who can resurrect him is Kami. He lives above Karine tower."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.kami;GHello, I am Kami. Although I look like the demon Piccolo, I'm not like him. A long time ago we split into two individuals. I did that in order to become God and the other half became the demon Piccolo. Let me take care of Shenron's resurrection, it was I who created it after all.;BCool!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;44"
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Hunting"
+      ],
+      "subtitle": [
+        "Hunting dinosaurs"
+      ],
+      "description": [
+        "You should train with these dinos, they are strong, even if not as much as yours previous opponents. In addition, this will allow you to recover a little bit of meat."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Njinryuudragonblockc.EntityDino02;M2;H300;A8",
+          "killsame;Njinryuudragonblockc.EntityDino03;M1;H500;A8"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!70||align!+5;jinryuujrmcore.missionSys.Protect;45",
+          "tp!fix!70||align!0;jinryuujrmcore.missionSys.Myself;45",
+          "tp!fix!70||align!-5;jinryuujrmcore.missionSys.Evil;45"
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Cyborg Tao"
+      ],
+      "subtitle": [
+        "The return of Mercenary Taopaipai"
+      ],
+      "description": [
+        "You beat Tao, but he survived and become a cyborg! Now he want to take his revenge."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.MercenaryTao2;H380;A13;Tjinryuudragonblockc.MercenaryTao3|150|1.05;STao: I am here to take my revenge, and I'm much stronger than before with my new robotic body!;DTao: How... not again..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!80||align!+5;jinryuujrmcore.missionSys.Protect;46",
+          "tp!fix!80||align!0;jinryuujrmcore.missionSys.Myself;46",
+          "tp!fix!80||align!-5;jinryuujrmcore.missionSys.Evil;46"
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Young man"
+      ],
+      "subtitle": [
+        "The hero becomes an adult"
+      ],
+      "description": [
+        "A young man comes in front of you. His hair seems familiar. he seems he want to train with you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.goku1;H530;A18;Tninjinentities.gokunoweight|150|1.075;SGoku: Hi! it's been a while since i last saw you! You recognize me or not? It is me, Goku! I grew up a little haha! I am going to Kami place too! Tell me, you wanna train together?;DGoku: Hehe! Not too bad, you're so strong!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!90||align!+5;jinryuujrmcore.missionSys.Protect;47",
+          "tp!fix!90||align!0;jinryuujrmcore.missionSys.Myself;47",
+          "tp!fix!90||align!-5;jinryuujrmcore.missionSys.Evil;47"
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Ma Junior"
+      ],
+      "subtitle": [
+        "Revenge for his father"
+      ],
+      "description": [
+        "An individual approaches you. His face seems familiar... Piccolo! But much younger. He is not here to have fun. Prepare to fight!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.piccolo;H540;A18;SPiccolo Junior: You! I'll kill you and avenge my father! You will regret having met me!;DPiccolo Junior: Aarg... bastard... I will return... "
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!95||align!+5;jinryuujrmcore.missionSys.Protect;48",
+          "tp!fix!95||align!0;jinryuujrmcore.missionSys.Myself;48",
+          "tp!fix!95||align!-5;jinryuujrmcore.missionSys.Evil;48"
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.saiyan"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.2.title"
+      ],
+      "description": [
+        "dbc.sagasystem.2.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.raditz;H702;A24;SRaditz: Well... you seem strong... You know where is Kakarot? If you don't know, I will have to kill you!;Ddbc.itemSaiySagaRad.d.line1"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!120||align!+5;jinryuujrmcore.missionSys.Protect;49",
+          "tp!fix!120||align!0;jinryuujrmcore.missionSys.Myself;49",
+          "tp!fix!120||align!-5;jinryuujrmcore.missionSys.Evil;49"
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Attack of the saiyans."
+      ],
+      "subtitle": [
+        "Crisis meeting at Kami's Palace"
+      ],
+      "description": [
+        "Before dying Raditz said that two saiyans,stronger than him, are coming to Earth. Unfortunately, Goku was killed during the fight and Gohan was kidnapped by Piccolo. Go see Kami to know what to do."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.kami;GI am already aware of the situation, I took a few warriors under my wing. They leaved the palace for training. If you see them, can you help them train? ;BSure."
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;50"
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The saiyans"
+      ],
+      "subtitle": [
+        "Training for saiyans."
+      ],
+      "description": [
+        "Yamcha and Krillin are training together for the fight against the saiyans."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.yamcha2;H752;A25;SYamcha: Yo!;DYamcha: Still so strong I see...",
+          "kill;Nninjinentities.krillin1;H814;A27;SKrillin: Hi, you have come to train with us?;DKrillin: Ugh... you defeated me again..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!150||align!+5;jinryuujrmcore.missionSys.Protect;51",
+          "tp!fix!150||align!0;jinryuujrmcore.missionSys.Myself;51",
+          "tp!fix!150||align!-5;jinryuujrmcore.missionSys.Evil;51"
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The saiyans"
+      ],
+      "subtitle": [
+        "Training for the saiyans part 2."
+      ],
+      "description": [
+        "Chiaotzu and Tien are training together for the fight against the saiyans."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.chiaotzu2;H698;A23;DChiaotzu: Oof...",
+          "kill;Nninjinentities.tien;H851;A28;STien: Hello. I see... Kami ask you to train with us...;DTien: Ugh... you're powerful..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!160||align!+5;jinryuujrmcore.missionSys.Protect;52",
+          "tp!fix!160||align!0;jinryuujrmcore.missionSys.Myself;52",
+          "tp!fix!160||align!-5;jinryuujrmcore.missionSys.Evil;52"
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The saiyans"
+      ],
+      "subtitle": [
+        "Training for the saiyans part 3."
+      ],
+      "description": [
+        "Piccolo captured Gohan to train him, because he saw that he had potential in the fight against the saiyans."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gohanKid1;H825;A27;SGohan: Hello...;DGohan: Ouch ouch...",
+          "kill;Nninjinentities.piccolo;H1246;A42;SPiccolo: Hey you! We should put our differences aside and work together against these saiyans... I would like to see what you're worth against Gohan and myself.;DPiccolo: Hmpf... You are strong but I don't think that will be enough against them..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!170||align!+5;jinryuujrmcore.missionSys.Protect;53",
+          "tp!fix!170||align!0;jinryuujrmcore.missionSys.Myself;53",
+          "tp!fix!170||align!-5;jinryuujrmcore.missionSys.Evil;53"
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The saiyans"
+      ],
+      "subtitle": [
+        "Gohan in the Oozaru Form"
+      ],
+      "description": [
+        "During the training with Piccolo, Gohan transformed into a geant monkey while looking at the full moon! Help Piccolo control Gohan!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.oozaru;H3147;A105;SGohan: GROAAAAAAAA!;DPiccolo: Thank you, we didn't need that in addition to the saiyans..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!200||align!+5;jinryuujrmcore.missionSys.Protect;54",
+          "tp!fix!200||align!0;jinryuujrmcore.missionSys.Myself;54",
+          "tp!fix!200||align!-5;jinryuujrmcore.missionSys.Evil;54"
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.saiyan"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.3.title"
+      ],
+      "description": [
+        "dbc.sagasystem.3.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Njinryuudragonblockc.Saibaiman;M6;H680;A23;SSabaimen: Gi gi gi!;DSabaiman: Giaarg!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!220||align!+5;jinryuujrmcore.missionSys.Protect;55",
+          "tp!fix!220||align!0;jinryuujrmcore.missionSys.Myself;55",
+          "tp!fix!200||align!-5;jinryuujrmcore.missionSys.Evil;55"
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.saiyan"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.4.title"
+      ],
+      "description": [
+        "dbc.sagasystem.4.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.nappa;H2286;A76;Tninjinentities.nappaDamaged|300|0.95;Sdbc.itemSaiySagaVeg.line1;Ddbc.itemSaiySagaVeg.d.line2",
+          "kill;Nninjinentities.vegeta0;H10286;A294;Sdbc.itemSaiySagaVeg.line2;Ddbc.itemSaiySagaVeg.d.line1"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!350||align!+5;jinryuujrmcore.missionSys.Protect;56",
+          "tp!fix!350||align!0;jinryuujrmcore.missionSys.Myself;56",
+          "tp!fix!350||align!-5;jinryuujrmcore.missionSys.Evil;56"
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.saiyan"
+      ],
+      "subtitle": [
+        "Vegeta in the Oozaru Form"
+      ],
+      "description": [
+        "Vegeta decided to use a technique allowing him to transform into his Oozaru form. Run away! You can't fight him in this form!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegetaOozaru;H20572;A400;Tninjinentities.vegeta0Damaged|600|0.5;SVegeta: Ahaha, all hope is vain!;DVegeta: I will get my revenge..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!350||align!+5||item!jinryuudragonblockc:SpacePod01Item;jinryuujrmcore.missionSys.Protect;57",
+          "tp!fix!350||align!0||item!jinryuudragonblockc:SpacePod01Item;jinryuujrmcore.missionSys.Myself;57",
+          "tp!fix!350||align!-5||item!jinryuudragonblockc:SpacePod01Item;jinryuujrmcore.missionSys.Evil;57"
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.saiyan"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.5.title"
+      ],
+      "description": [
+        "dbc.sagasystem.5.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim;NNamek"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;58"
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.6.title"
+      ],
+      "description": [
+        "dbc.sagasystem.6.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "killsame;Njinryuudragonblockc.FreezaSoldier1;M3;H857;A26",
+          "killsame;Njinryuudragonblockc.FreezaSoldier2;M3;H914;A30",
+          "killsame;Njinryuudragonblockc.FreezaSoldier3;M3;H971;A32"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!300||align!+5;jinryuujrmcore.missionSys.Protect;59",
+          "tp!fix!300||align!0;jinryuujrmcore.missionSys.Myself;59",
+          "tp!fix!300||align!-5;jinryuujrmcore.missionSys.Evil;59"
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.7.title"
+      ],
+      "description": [
+        "dbc.sagasystem.7.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Kiwi;H10285;A343;SKiwi: Hey scumbag! You will serve as a warm-up...;DKiwi: What...?! how... do you..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!370||align!+5;jinryuujrmcore.missionSys.Protect;60",
+          "tp!fix!370||align!0;jinryuujrmcore.missionSys.Myself;60",
+          "tp!fix!370||align!-5;jinryuujrmcore.missionSys.Evil;60"
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Earthlings"
+      ],
+      "subtitle": [
+        "Training with the earthlings on Namek"
+      ],
+      "description": [
+        "Gohan and Krillin also arrive on Namek with Bulma using the ship of Kami. They recognize you and offers to train together."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.gohanKid2;H5814;A194;SGohan: I am ready to train!;DGohan: You are so strong...",
+          "kill;Nninjinentities.krillin1;H5728;A191;SKrillin: Let's see if we got stronger this time.;DKrillin: I always have a hard time competing against you..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!400||align!+5;jinryuujrmcore.missionSys.Protect;61",
+          "tp!fix!400||align!0;jinryuujrmcore.missionSys.Myself;61",
+          "tp!fix!400||align!-5;jinryuujrmcore.missionSys.Evil;61"
+        ]
+      ]
+    },
+    {
+      "id": 61,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.8.title"
+      ],
+      "description": [
+        "dbc.sagasystem.8.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.dodoria;H12571;A411;SDodoria: You beating me? What a farce!;DDodoria: Waaaah!! Mr...Mr. Freeza!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!450||align!+5;jinryuujrmcore.missionSys.Protect;62",
+          "tp!fix!450||align!0;jinryuujrmcore.missionSys.Myself;62",
+          "tp!fix!450||align!-5;jinryuujrmcore.missionSys.Evil;62"
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.9.title"
+      ],
+      "description": [
+        "dbc.sagasystem.9.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.zarbon1;H13142;A438;Tninjinentities.zarbon2|300|1.2;SZarbon: You killed Dodoria? Do you think you can show off like that without consequences? I'm going to kill you.;DZarbon: Aarg... Impossible..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!500||align!+5;jinryuujrmcore.missionSys.Protect;63",
+          "tp!fix!500||align!0;jinryuujrmcore.missionSys.Myself;63",
+          "tp!fix!500||align!-5;jinryuujrmcore.missionSys.Evil;63"
+        ]
+      ]
+    },
+    {
+      "id": 63,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "The Grand Elder Guru"
+      ],
+      "description": [
+        "Guru is the oldest and wisest Namekian and he is the creator of the Namekian Dragon Balls. Maybe he can help you on your quest."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.gurumaster;GWelcome... I can sense that our goal are the same, I will help you by revealing your true potential.;BThanks."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!5000;Release Potential;64"
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "Nail the Namekian"
+      ],
+      "description": [
+        "Nail is the personal bodyguard to Grand Elder Guru, and is incredibly strong for a Namekian. He wants to test your strength before you continue."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.nail;H24007;A800;SNail: I will like to test your strength, come at me like you mean it, don't worry I won't kill you.;DNail: You're strong indeed. I think you should be ready for the rest."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!625||align!+5;jinryuujrmcore.missionSys.Protect;65",
+          "tp!fix!625||align!0;jinryuujrmcore.missionSys.Myself;65",
+          "tp!fix!625||align!-5;jinryuujrmcore.missionSys.Evil;65"
+        ]
+      ]
+    },
+    {
+      "id": 65,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "Vegeta is also on Namek."
+      ],
+      "description": [
+        "Vegeta, having understood that the Dragon Balls may be found on Namek, gets in your way."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.vegeta0;H18286;A610;SVegeta: You! I'm going to get my revenge for last time!;DVegeta: Wait...! Do not kill me, we can fight together against Freeza..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!600||align!+5;jinryuujrmcore.missionSys.Protect;66",
+          "tp!fix!600||align!0;jinryuujrmcore.missionSys.Myself;66",
+          "tp!fix!600||align!-5;jinryuujrmcore.missionSys.Evil;66"
+        ]
+      ]
+    },
+    {
+      "id": 66,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.10.title"
+      ],
+      "description": [
+        "dbc.sagasystem.10.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Guldo;H2857;A143;Sdbc.itemFreeSagaGin.4.line1",
+          "kill;Njinryuudragonblockc.Recoome;H25714;A735;Sdbc.itemFreeSagaGin.1.line1;Ddbc.itemFreeSagaGin.d.1.line1"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!800||align!+5;jinryuujrmcore.missionSys.Protect;67",
+          "tp!fix!800||align!0;jinryuujrmcore.missionSys.Myself;67",
+          "tp!fix!800||align!-5;jinryuujrmcore.missionSys.Evil;67"
+        ]
+      ]
+    },
+    {
+      "id": 67,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.10.title"
+      ],
+      "description": [
+        "dbc.sagasystem.10.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Barta;H22857;A914;Sdbc.itemFreeSagaGin.2.line1",
+          "kill;Njinryuudragonblockc.Jeice;H24021;A801;Sdbc.itemFreeSagaGin.3.line1",
+          "kill;Nninjinentities.recoomeDamaged;H21253;A800;SRecoome: ...;DRecoome: AAAHH... WAHH... AAAH..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1000||align!+5;jinryuujrmcore.missionSys.Protect;68",
+          "tp!fix!1000||align!0;jinryuujrmcore.missionSys.Myself;68",
+          "tp!fix!1000||align!-5;jinryuujrmcore.missionSys.Evil;68"
+        ]
+      ]
+    },
+    {
+      "id": 68,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.10.title"
+      ],
+      "description": [
+        "dbc.sagasystem.10.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Ginyu;H68571;A2285;Sdbc.itemFreeSagaGin.5.line1;Ddbc.itemFreeSagaGin.d.5.line1"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1800||align!+5;jinryuujrmcore.missionSys.Protect;69",
+          "tp!fix!1800||align!0;jinryuujrmcore.missionSys.Myself;69",
+          "tp!fix!1800||align!-5;jinryuujrmcore.missionSys.Evil;69"
+        ]
+      ]
+    },
+    {
+      "id": 69,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.10.title"
+      ],
+      "description": [
+        "Ginyu manages to change body with Goku! Will he be stronger now ?"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.ginyuGoku;H13142;A438;Tjinryuudragonblockc.EntityNamekFrog|200|0.00025;SGinyu: He he he! Now I have a strength of 180000!!;DGinyu: Ribbit...!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!600||align!+5;jinryuujrmcore.missionSys.Protect;70",
+          "tp!fix!600||align!0;jinryuujrmcore.missionSys.Myself;70",
+          "tp!fix!600||align!-5;jinryuujrmcore.missionSys.Evil;70"
+        ]
+      ]
+    },
+    {
+      "id": 70,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "The request of Vegeta"
+      ],
+      "description": [
+        "Vegeta has joined your team an he asks you to fight with him in order to become stronger. He is a lot stronger with the fight against Recoome."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.vegeta3;H70286;A2343;SVegeta: Come and fight, I have to become stronger!;DVegeta: Hmpf... I will become the Super saiyan...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1900||align!+5;jinryuujrmcore.missionSys.Protect;71",
+          "tp!fix!1900||align!0;jinryuujrmcore.missionSys.Myself;71",
+          "tp!fix!1900||align!-5;jinryuujrmcore.missionSys.Evil;71"
+        ]
+      ]
+    },
+    {
+      "id": 71,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "Earthlings training"
+      ],
+      "description": [
+        "Gohan and Krillin team up with Vegeta against Freeza. They also want to train with you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.gohanKidArmor;H35123;A1171;SGohan: I am ready to train with you!;DGohan: You are strong...",
+          "kill;Nninjinentities.krillin2;H30584;A1019;SKrillin: there you Go, Gohan!;DKrillin: Uugh... I give up..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1800||align!+5;jinryuujrmcore.missionSys.Protect;72",
+          "tp!fix!1800||align!0;jinryuujrmcore.missionSys.Myself;72",
+          "tp!fix!1800||align!-5;jinryuujrmcore.missionSys.Evil;72"
+        ]
+      ]
+    },
+    {
+      "id": 72,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "Goku's request"
+      ],
+      "description": [
+        "Goku just arrived on Namek. In the meantime, he was able to train using a gravity device in his ship. He is much stronger than before."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.goku2;H45720;A1524;Tninjinentities.goku2Kaioken|150|2.0;SGoku: Hi! I would like to test my new strength on you! Come fight with me!;DGoku: Uugh... Well done, hehehe..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2000||align!+5;jinryuujrmcore.missionSys.Protect;73",
+          "tp!fix!2000||align!0;jinryuujrmcore.missionSys.Myself;73",
+          "tp!fix!2000||align!-5;jinryuujrmcore.missionSys.Evil;73"
+        ]
+      ]
+    },
+    {
+      "id": 73,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.11.title"
+      ],
+      "description": [
+        "dbc.sagasystem.11.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Freeza1;H62233;A2074;SFreeza: You will pay for this, dirty vermins!! I will torture you to death!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2000||align!+5;jinryuujrmcore.missionSys.Protect;74",
+          "tp!fix!2000||align!0;jinryuujrmcore.missionSys.Myself;74",
+          "tp!fix!2000||align!-5;jinryuujrmcore.missionSys.Evil;74"
+        ]
+      ]
+    },
+    {
+      "id": 74,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.11.title"
+      ],
+      "description": [
+        "dbc.sagasystem.11.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Freeza1;H62233;A2074;Tjinryuudragonblockc.Freeza2|50|1.4;SFreeza: Alright, no more fooling around!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2200||align!+5;jinryuujrmcore.missionSys.Protect;75",
+          "tp!fix!2200||align!0;jinryuujrmcore.missionSys.Myself;75",
+          "tp!fix!2200||align!-5;jinryuujrmcore.missionSys.Evil;75"
+        ]
+      ]
+    },
+    {
+      "id": 75,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.11.title"
+      ],
+      "description": [
+        "dbc.sagasystem.11.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Freeza2;H87126;A2904;Tjinryuudragonblockc.Freeza3|50|1.25;SFreeza: Excuse me for making you wait!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2400||align!+5;jinryuujrmcore.missionSys.Protect;76",
+          "tp!fix!2400||align!0;jinryuujrmcore.missionSys.Myself;76",
+          "tp!fix!2400||align!-5;jinryuujrmcore.missionSys.Evil;76"
+        ]
+      ]
+    },
+    {
+      "id": 76,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.11.title"
+      ],
+      "description": [
+        "dbc.sagasystem.11.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Freeza3;H108907;A3630;Tjinryuudragonblockc.Freeza4|50|1.28571428571;SFreeza: I warned you that it would be worse than hell!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2600||align!+5;jinryuujrmcore.missionSys.Protect;77",
+          "tp!fix!2600||align!0;jinryuujrmcore.missionSys.Myself;77",
+          "tp!fix!2600||align!-5;jinryuujrmcore.missionSys.Evil;77"
+        ]
+      ]
+    },
+    {
+      "id": 77,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.11.title"
+      ],
+      "description": [
+        "dbc.sagasystem.11.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Nninjinentities.freeza5Damaged;H196032;A6534;Tninjinentities.freeza6Damaged|25|1.42857142857;SFreeza: You asked for it! I will go with 100 per cent of my power! AAAAAAAAAAAAAAAAAAAAAAAAAAAH!!;DFreeza: Spa...Spare me please..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2800||align!+5;jinryuujrmcore.missionSys.Protect;78",
+          "tp!fix!2800||align!0;jinryuujrmcore.missionSys.Myself;78",
+          "tp!fix!2800||align!-5;jinryuujrmcore.missionSys.Evil;78"
+        ]
+      ]
+    },
+    {
+      "id": 78,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.freeza"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.12.title"
+      ],
+      "description": [
+        "dbc.sagasystem.12.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim;NOverworld"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;79"
+        ]
+      ]
+    },
+    {
+      "id": 79,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.13.title"
+      ],
+      "description": [
+        "dbc.sagasystem.13.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;80"
+        ]
+      ]
+    },
+    {
+      "id": 80,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.14.title"
+      ],
+      "description": [
+        "dbc.sagasystem.14.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Njinryuudragonblockc.FreezaSoldier1;M3;H10125;A350",
+          "killsame;Njinryuudragonblockc.FreezaSoldier2;M3;H11428;A381",
+          "killsame;Njinryuudragonblockc.FreezaSoldier3;M3;H12252;A405"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1000||align!+5;jinryuujrmcore.missionSys.Protect;81",
+          "tp!fix!1000||align!0;jinryuujrmcore.missionSys.Myself;81",
+          "tp!fix!1000||align!-5;jinryuujrmcore.missionSys.Evil;81"
+        ]
+      ]
+    },
+    {
+      "id": 81,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.15.title"
+      ],
+      "description": [
+        "dbc.sagasystem.15.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.MechaFreeza;H301429;A10048;SFreeza: Since you killed my men, I will have to get the job done myself...;DFreeza: Wha...",
+          "kill;Njinryuudragonblockc.KingCold;H328571;A10952;SCold: Hmmm... not bad for a weakling...;DCold: W...Wait...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!3500||align!+5;jinryuujrmcore.missionSys.Protect;82",
+          "tp!fix!3500||align!0;jinryuujrmcore.missionSys.Myself;82",
+          "tp!fix!3500||align!-5;jinryuujrmcore.missionSys.Evil;82"
+        ]
+      ]
+    },
+    {
+      "id": 82,
+      "translated": true,
+      "props": [
+        "default",
+        "saiyan",
+        "arcosian"
+      ],
+      "align": [
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android",
+        "dbc.sagasystem.android",
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.16.title",
+        "dbc.sagasystem.16.title",
+        "The 5th form"
+      ],
+      "description": [
+        "dbc.sagasystem.16.desc",
+        "dbc.sagasystem.16.desc",
+        "There is a form above the 4th form. Cooler is the first to have succeeded in achieving this form, try reaching it too."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ],
+        [
+          "next",
+          "state;NSS"
+        ],
+        [
+          "skip",
+          "state;NForm5"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;83"
+        ],
+        [
+          "nothing;Next;83"
+        ],
+        [
+          "nothing;Next;83"
+        ]
+      ]
+    },
+    {
+      "id": 83,
+      "translated": true,
+      "props": [
+        "default",
+        "saiyan"
+      ],
+      "align": [
+        "neutral",
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android",
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Trunks, the warrior of the time.",
+        "Trunks, the warrior of the time."
+      ],
+      "description": [
+        "An unknown warrior appeared in front of you, he wants to talk to you, but before that he wants to test you... ",
+        "An unknown warrior appeared in front of you, he wants to talk to you, but before that he wants to test you... "
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.trunksFutur;H151697;A5057;Tninjinentities.trunksFuturSsj|100|4.0;STrunks: Hello, I have to tell you about your future, but first I would like to test your strength. I know you beat Freeza.;DTrunks: Great... You are strong as I had been told, maybe even more incredible. Goku should arrive soon, I suggest we wait for him.."
+        ],
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.trunksFutur;H151697;A5057;Tninjinentities.trunksFuturSsj|100|4.00;STrunks: Hello, I have to tell you about your future, but first I would like to test your strength. I know you beat Freeza and are capable of becoming a Super saiyan.;DTrunks: Great... You are strong as I had been told, maybe even more incredible. Goku should arrive soon, I suggest we wait for him.."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!4000||align!+5;jinryuujrmcore.missionSys.Protect;84",
+          "tp!fix!4000||align!0;jinryuujrmcore.missionSys.Myself;84",
+          "tp!fix!4000||align!-5;jinryuujrmcore.missionSys.Evil;84"
+        ],
+        [
+          "tp!fix!4000||align!+5;jinryuujrmcore.missionSys.Protect;84",
+          "tp!fix!4000||align!0;jinryuujrmcore.missionSys.Myself;84",
+          "tp!fix!4000||align!-5;jinryuujrmcore.missionSys.Evil;84"
+        ]
+      ]
+    },
+    {
+      "id": 84,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Goku is back!"
+      ],
+      "description": [
+        "Goku was stuck on Namek when Freeza decided to make it explode. Everyone thought he was dead, but in reality Trunks explain that he was able to escape and that he should soon be back on Earth."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuYardrat;H162284;A5409;Tninjinentities.gokuYardratSsj|150|4.0;SGoku: What are you doing here? Have you been waiting for my arrival? Ah lucky me, I would like to test my new power on you!;DGoku: Ahahah, I see that it is not enough... But the next time will not be the same!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!4100||align!+5;jinryuujrmcore.missionSys.Protect;85",
+          "tp!fix!4100||align!0;jinryuujrmcore.missionSys.Myself;85",
+          "tp!fix!4100||align!-5;jinryuujrmcore.missionSys.Evil;85"
+        ]
+      ]
+    },
+    {
+      "id": 85,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Trunks wants to tell you about the future."
+      ],
+      "description": [
+        "After testing you, Trunks absolutely wanted to see you to tell you about your future."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.trunksfuturemaster;GI will tell you the whole truth: I came from 20 years in the future to warn you that 2 terribly powerful cyborg will be there soon. I would also like to warn you that Goku will die from a heart disease, but fortunately it is treatable in the future with the medication that I brought.; Thanks for the help!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;86"
+        ]
+      ]
+    },
+    {
+      "id": 86,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Vegeta wants to talk to you"
+      ],
+      "description": [
+        "Vegeta wave at you while looking angry. It seems he want to talks with you."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.mastervegeta;GYou may have beaten Freeza, but don't be so proud! One day I will crush you! Do not forget that I am the strongest in the universe!;BYes..."
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;87"
+        ]
+      ]
+    },
+    {
+      "id": 87,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Training for the cyborgs"
+      ],
+      "description": [
+        "Goku invites you to train with him, Son Gohan, and Piccolo to prepare for the battle against the Cyborgs."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.goku2;H164894;A5496;Tninjinentities.goku2Kaioken|150|2;SGoku: let's begin with a little warm-up...;DGoku: Hmm... I'll have to quickly go serious.",
+          "kill;Nninjinentities.piccolo;H389273;A12976;DPiccolo: Hmmpf...",
+          "kill;Nninjinentities.gohanKid3;H142347;A4744;SGohan: I'm ready when you are!;DGohan: You are very strong..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!5000||align!+5;jinryuujrmcore.missionSys.Protect;88",
+          "tp!fix!5000||align!0;jinryuujrmcore.missionSys.Myself;88",
+          "tp!fix!5000||align!-5;jinryuujrmcore.missionSys.Evil;88"
+        ]
+      ]
+    },
+    {
+      "id": 88,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Training for the cyborgs"
+      ],
+      "description": [
+        "Goku wants to go serious to train with you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.goku2;H164894;A5496;Tninjinentities.gokuSsj|40|4.0;SGoku: Let's see what you worth, when I go serious!;DGoku: Phew... It was an excellent training, thank you!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!5000||align!+5;jinryuujrmcore.missionSys.Protect;89",
+          "tp!fix!5000||align!0;jinryuujrmcore.missionSys.Myself;89",
+          "tp!fix!5000||align!-5;jinryuujrmcore.missionSys.Evil;89"
+        ]
+      ]
+    },
+    {
+      "id": 89,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Training for the cyborgs"
+      ],
+      "description": [
+        "Yamcha contacts you and wants to train with you, he also calls Krillin, Tien, and Chiaotzu."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.yamcha3;H118561;A3952;SYamcha: It's fine guys we can go full strength against him!;DYamcha: Ugh.. I'm giving up!",
+          "kill;Nninjinentities.tien;H133259;A4442;DTien: Uugh... Well done...",
+          "kill;Nninjinentities.krillin1;H148348;A4945;DKrillin: We can't get you so easily...",
+          "kill;Nninjinentities.chiaotzu2;H98021;A3267;DChiaotzu: You're too strong for me..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!5000||align!+5;jinryuujrmcore.missionSys.Protect;90",
+          "tp!fix!5000||align!0;jinryuujrmcore.missionSys.Myself;90",
+          "tp!fix!5000||align!-5;jinryuujrmcore.missionSys.Evil;90"
+        ]
+      ]
+    },
+    {
+      "id": 90,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Training for the cyborgs"
+      ],
+      "description": [
+        "Vegeta is looking for you, he has a big smile on his face and wants to fight."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeta;H172514;A5750;Tninjinentities.vegetaSsj|40|4.0;SVegeta: I finally became a Super saiyan, I am going to destroy you this time!;DVegeta: It is impossible... An elite like me should not lose like this..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!5500||align!+5;jinryuujrmcore.missionSys.Protect;91",
+          "tp!fix!5500||align!0;jinryuujrmcore.missionSys.Myself;91",
+          "tp!fix!5500||align!-5;jinryuujrmcore.missionSys.Evil;91"
+        ]
+      ]
+    },
+    {
+      "id": 91,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.19.title"
+      ],
+      "description": [
+        "dbc.sagasystem.19.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cyborg19;H734286;A24476;SC-19:...;DC-19: Gouuuuh..! Impossible...",
+          "kill;Njinryuudragonblockc.Cyborg20;H762857;A25428;SC-20: Your power is much greater than in my calculations! However, C-19 will beat you easily.;DC 20: You bastard..! Dr. Gero can't die this easily..!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!6000||align!+5;jinryuujrmcore.missionSys.Protect;92",
+          "tp!fix!6000||align!0;jinryuujrmcore.missionSys.Myself;92",
+          "tp!fix!6000||align!-5;jinryuujrmcore.missionSys.Evil;92"
+        ]
+      ]
+    },
+    {
+      "id": 92,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "The return of Trunks"
+      ],
+      "description": [
+        "Trunks came back to see how you're faring with the Cyborgs."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.trunksfuturemaster;GC-19 and C-20? No, the cyborgs of my time are C-17 and C-18... Has the course of history been changed? Surely because of my time travel...;BYes, I suppose."
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;93"
+        ]
+      ]
+    },
+    {
+      "id": 93,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.22.title"
+      ],
+      "description": [
+        "dbc.sagasystem.22.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cyborg18;H914286;A30476;SC-18: Well. I'm going to take care of you.;DC-18: Surprising! I underestimated you."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!6200||align!+5;jinryuujrmcore.missionSys.Protect;94",
+          "tp!fix!6200||align!0;jinryuujrmcore.missionSys.Myself;94",
+          "tp!fix!6200||align!-5;jinryuujrmcore.missionSys.Evil;94"
+        ]
+      ]
+    },
+    {
+      "id": 94,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.17.title"
+      ],
+      "description": [
+        "dbc.sagasystem.17.desc"
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.kami;Gdbc.MainSaga.17.m;Bdbc.MainSaga.17.b"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;95"
+        ]
+      ]
+    },
+    {
+      "id": 95,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.23.title"
+      ],
+      "description": [
+        "dbc.sagasystem.23.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cell1;H873571;A29119;SCell: Hi, my brother. I'm going to have to eat you soon.;DCell: I underestimated you... TAIYOKEN!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!6500||align!+5;jinryuujrmcore.missionSys.Protect;96",
+          "tp!fix!6500||align!0;jinryuujrmcore.missionSys.Myself;96",
+          "tp!fix!6500||align!-5;jinryuujrmcore.missionSys.Evil;96"
+        ]
+      ]
+    },
+    {
+      "id": 96,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.24.title"
+      ],
+      "description": [
+        "dbc.sagasystem.24.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;97"
+        ]
+      ]
+    },
+    {
+      "id": 97,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.25.title"
+      ],
+      "description": [
+        "dbc.sagasystem.25.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cyborg16;H1057143;A35238;SC-16:...;DC-16: I'd like to avoid fighting if possible...",
+          "kill;Njinryuudragonblockc.Cyborg17;H914286;A30476;SC-17: Hey you! Where is Goku? Either you talk or you die.;DC-17: How dare you do that to me, the most powerful cyborg of the universe!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!7500||align!+5;jinryuujrmcore.missionSys.Protect;98",
+          "tp!fix!7500||align!0;jinryuujrmcore.missionSys.Myself;98",
+          "tp!fix!7500||align!-5;jinryuujrmcore.missionSys.Evil;98"
+        ]
+      ]
+    },
+    {
+      "id": 98,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.26.title"
+      ],
+      "description": [
+        "dbc.sagasystem.26.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cell2;H1677857;A55929;SCell: I have finally reached my semi-perfect form! I am now invincible!;DCell: Aarg... If only I could reach my perfect form..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!9000||align!+5;jinryuujrmcore.missionSys.Protect;99",
+          "tp!fix!9000||align!0;jinryuujrmcore.missionSys.Myself;99",
+          "tp!fix!9000||align!-5;jinryuujrmcore.missionSys.Evil;99"
+        ]
+      ]
+    },
+    {
+      "id": 99,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Super Vegeta and Super Trunks"
+      ],
+      "description": [
+        "Vegeta and Trunks are getting out of the time chamber and have finished their training. Vegeta, wanting to fight you as well as wanting to see the perfect form of Cell, get in your way and prevent you from killing Cell."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegetaSsj;H1505897;A50197;Tninjinentities.vegetaSsjG2|80|1.2;SVegeta: Get out! I won't let you stop Cell from becoming Perfect! But you will serve me as a good warm-up before my fight against Cell, Hahaha!;DVegeta: Argh!! Kuuh...!",
+          "kill;Nninjinentities.trunksArmor;H401474;A11382;Tninjinentities.trunksArmorSsj|100|4.0;Tninjinentities.trunksArmorSsjG3|100|1.3;STrunks: No, stop fighting together! We must prevent Cell from reaching its perfect form!;DTrunks: Sorry for attacking you... But you have to stop Cell..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!11000||align!+5;jinryuujrmcore.missionSys.Protect;100",
+          "tp!fix!11000||align!0;jinryuujrmcore.missionSys.Myself;100",
+          "tp!fix!11000||align!-5;jinryuujrmcore.missionSys.Evil;100"
+        ]
+      ]
+    },
+    {
+      "id": 100,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "The mastery of the Super saiyan"
+      ],
+      "description": [
+        "Goku and Gohan also left the time chamber and finished their training. They want to test their power on you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuArmor;H455897;A15197;Tninjinentities.gokuArmorSsj|80|6.0;SGoku: Hi! We have just finished our training. We would like to test our power on you.;DGoku: You also train well... I will be stronger for our next fight.",
+          "kill;Nninjinentities.gohanTeenArmor;H421474;A14049;Tninjinentities.gohanTeenArmorSsj|80|6.0;SGohan: Hi!;DGohan: You will be able to help us against Cell with this power!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!15000||align!+5;jinryuujrmcore.missionSys.Protect;101",
+          "tp!fix!15000||align!0;jinryuujrmcore.missionSys.Myself;101",
+          "tp!fix!15000||align!-5;jinryuujrmcore.missionSys.Evil;101"
+        ]
+      ]
+    },
+    {
+      "id": 101,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.27.title"
+      ],
+      "description": [
+        "dbc.sagasystem.27.desc"
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;102"
+        ]
+      ]
+    },
+    {
+      "id": 102,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.28.title"
+      ],
+      "description": [
+        "dbc.sagasystem.28.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;103"
+        ]
+      ]
+    },
+    {
+      "id": 103,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "Hercule the greatest experts in Martial Arts."
+      ],
+      "description": [
+        "As you arrive at the Cell Game. A human is presented in the name of Hercules or Satan, the strongest man on Earth. He points to you and seems to want to show his strength by warming up on you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.hercule;H200;A7;SSatan: Cell is making a big mistake! Hey, you! I would need you for a little warm-up before the fight with Cell.;DSatan: Ow! Ow oww!... I slipped..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!20||align!+5;jinryuujrmcore.missionSys.Protect;104",
+          "tp!fix!20||align!0;jinryuujrmcore.missionSys.Myself;104",
+          "tp!fix!20||align!-5;jinryuujrmcore.missionSys.Evil;104"
+        ]
+      ]
+    },
+    {
+      "id": 104,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.30.title"
+      ],
+      "description": [
+        "dbc.sagasystem.30.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cell3;H3034657;A101155;SCell: Hmpf... Anyway, the tournament is finally going to start. Who will be first?;DCell : Your quite strong... I don't want to go by the rules anymore..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!17500||align!+5;jinryuujrmcore.missionSys.Protect;105",
+          "tp!fix!17500||align!0;jinryuujrmcore.missionSys.Myself;105",
+          "tp!fix!17500||align!-5;jinryuujrmcore.missionSys.Evil;105"
+        ]
+      ]
+    },
+    {
+      "id": 105,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.29.title"
+      ],
+      "description": [
+        "Cell has just used a technique that allowed him to spawn lots of little blue Cells! They seem very powerful, despite their size!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Njinryuudragonblockc.CellJr;M6;H1601471;A53382"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!18000||align!+5;jinryuujrmcore.missionSys.Protect;106",
+          "tp!fix!18000||align!0;jinryuujrmcore.missionSys.Myself;106",
+          "tp!fix!18000||align!-5;jinryuujrmcore.missionSys.Evil;106"
+        ]
+      ]
+    },
+    {
+      "id": 106,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.30.title"
+      ],
+      "description": [
+        "Cell seems to be weakening, just a little more and you should be able to beat him!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Cell3;H3034657;A101155;Tjinryuudragonblockc.Cell2|500|0.55;SCell: You think you can beat me now ? Don't make me laugh!;DCell : I will not lose... I will never lose against you!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!18000||align!+5;jinryuujrmcore.missionSys.Protect;107",
+          "tp!fix!18000||align!0;jinryuujrmcore.missionSys.Myself;107",
+          "tp!fix!18000||align!-5;jinryuujrmcore.missionSys.Evil;107"
+        ]
+      ]
+    },
+    {
+      "id": 107,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.30.title"
+      ],
+      "description": [
+        "While Cell seems to have been beaten, his brain which has not been completely destroyed has managed to regenerate him and make him even stronger!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.cell4;H4005054;A133502;SCell: Ku ku ku! It's look like you're surprised! With my saiyan cells my body became even more powerful!;DCell: AAAAH!!! NOOOO!! Im...Impossible...! M...Me...Los..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!25000||align!+5;jinryuujrmcore.missionSys.Protect;108",
+          "tp!fix!25000||align!0;jinryuujrmcore.missionSys.Myself;108",
+          "tp!fix!25000||align!-5;jinryuujrmcore.missionSys.Evil;108"
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.android"
+      ],
+      "subtitle": [
+        "The wrath of Gohan."
+      ],
+      "description": [
+        "During the fight against Cell, Goku, Trunks and C-16 were killed by the latter. Gohan is blinded by his rage and become uncontrollable! Try reasoning him."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gohanTeenSsj;H3308844;A110295;Tninjinentities.gohanTeenSsj2|100|1.29;SGohan: How dare you...! HAAAAAAAAAAAAAH!;DGohan: Haah.. Haah.."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!30000||align!+5;jinryuujrmcore.missionSys.Protect;109",
+          "tp!fix!30000||align!0;jinryuujrmcore.missionSys.Myself;109",
+          "tp!fix!30000||align!-5;jinryuujrmcore.missionSys.Evil;109"
+        ]
+      ]
+    },
+    {
+      "id": 109,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "A time of peace?"
+      ],
+      "description": [
+        "By eliminating Cell, you save the Earth. Peace reign again. Not for long unfortunately..."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;110"
+        ]
+      ]
+    },
+    {
+      "id": 110,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Training with Gohan and Goten."
+      ],
+      "description": [
+        "Goten is the new son of Goku and Chi-Chi. he was conceived just before the fight against Cell. Gohan and Goten offers to train with you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gohanAdult;H528141;A17605;Tninjinentities.gohanAdultSsj|50|6.00;SGohan: First I must be a Super saiyan. Well, shall we start?;DGohan: Goten since when... You can become a Super saiyan...?",
+          "kill;Nninjinentities.goten;H508844;A16961;Tninjinentities.gotenSsj|100|4.00;SGoten: Gohan can I be like you? In Super saiyan?;DGoten: Wow... you're pretty good!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!26000||align!+5;jinryuujrmcore.missionSys.Protect;111",
+          "tp!fix!26000||align!0;jinryuujrmcore.missionSys.Myself;111",
+          "tp!fix!26000||align!-5;jinryuujrmcore.missionSys.Evil;111"
+        ]
+      ]
+    },
+    {
+      "id": 111,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Gohan goes serious."
+      ],
+      "description": [
+        "Gohan wants to fight seriously by going Super saiyan 2."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gohanAdultSsj;H3168846;A105628;Tninjinentities.gohanAdultSsj2|50|1.29;SGohan: Okay, I'm going to get down to business!;DGohan: Ouaa... You're always so strong."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!29000||align!+5;jinryuujrmcore.missionSys.Protect;112",
+          "tp!fix!29000||align!0;jinryuujrmcore.missionSys.Myself;112",
+          "tp!fix!29000||align!-5;jinryuujrmcore.missionSys.Evil;112"
+        ]
+      ]
+    },
+    {
+      "id": 112,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Training with Vegeta and Trunks."
+      ],
+      "description": [
+        "Trunks is the son of Vegeta and Bulma. This Trunks is the present version of future Trunks. He is currently training with his father. Vegeta wants you to train with him and his son."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeta2;H658141;A21938;Tninjinentities.vegeta2Ssj|40|6.00;SVegeta: Hmmpf, you think You can still beat me...;DVegeta: Wait a bit... that I go seriously",
+          "kill;Nninjinentities.trunksKid;H548844;A18295;Tninjinentities.trunksKidSsj|50|4.00;STrunks: Hi! You already have train with Goten and Gohan? ;DTrunks: Ou... Ouch.. You are strong..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!27000||align!+5;jinryuujrmcore.missionSys.Protect;113",
+          "tp!fix!27000||align!0;jinryuujrmcore.missionSys.Myself;113",
+          "tp!fix!27000||align!-5;jinryuujrmcore.missionSys.Evil;113"
+        ]
+      ]
+    },
+    {
+      "id": 113,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Vegeta goes serious."
+      ],
+      "description": [
+        "Vegeta  wants to fight seriously by going Super saiyan 2."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeta2Ssj;H3948846;A121628;Tninjinentities.vegeta2Ssj2|30|1.29;SVegeta: Let's see if you can follow me!;DVegeta: Hmpf... Still going strong I guess."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!31000||align!+5;jinryuujrmcore.missionSys.Protect;114",
+          "tp!fix!31000||align!0;jinryuujrmcore.missionSys.Myself;114",
+          "tp!fix!31000||align!-5;jinryuujrmcore.missionSys.Evil;114"
+        ]
+      ]
+    },
+    {
+      "id": 114,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Yamu and Spopovich."
+      ],
+      "description": [
+        "Kaio Shin, the Kaio above all the others Kaios, came personally to warn you about a new threat : Buu. It is a very dangerous monster created by Bibidi. The Kaios killed him a long time ago but his son Babidi, wants to revive it on earth! Shin need your power to defeat it. The first step will be to learn where Babidi is hiding, some earthlings were controlled by his magic, maybe you can learn something from them."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.yamu;H2000;A66;SYamu: Master Babidi will be happy with that power of yours! ;DYamu: I need to warn Master Babidi...!",
+          "kill;Nninjinentities.spopovich;H2200;A60;SSpopovich: WAAAAAAH!! ;DSpopovich: NOO...!!! GWAARG...!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!250||align!+5;jinryuujrmcore.missionSys.Protect;115",
+          "tp!fix!250||align!0;jinryuujrmcore.missionSys.Myself;115",
+          "tp!fix!250||align!-5;jinryuujrmcore.missionSys.Evil;115"
+        ]
+      ]
+    },
+    {
+      "id": 115,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.31.title"
+      ],
+      "description": [
+        "dbc.sagasystem.31.desc"
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.masterbabidi;Gdbc.MainSaga.31.m;Bdbc.MainSaga.31.b"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;116"
+        ]
+      ]
+    },
+    {
+      "id": 116,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.32.title"
+      ],
+      "description": [
+        "dbc.sagasystem.32.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Puipui;H325714;A10857;Sdbc.MainSaga.32.1;Ddbc.MainSaga.32.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!5000||align!+5;jinryuujrmcore.missionSys.Protect;117",
+          "tp!fix!5000||align!0;jinryuujrmcore.missionSys.Myself;117",
+          "tp!fix!5000||align!-5;jinryuujrmcore.missionSys.Evil;117"
+        ]
+      ]
+    },
+    {
+      "id": 117,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.33.title"
+      ],
+      "description": [
+        "dbc.sagasystem.33.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Yakon;H671429;A22381;Sdbc.MainSaga.33.1;Ddbc.MainSaga.33.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!10000||align!+5;jinryuujrmcore.missionSys.Protect;118",
+          "tp!fix!10000||align!0;jinryuujrmcore.missionSys.Myself;118",
+          "tp!fix!10000||align!-5;jinryuujrmcore.missionSys.Evil;118"
+        ]
+      ]
+    },
+    {
+      "id": 118,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Majin Soldiers"
+      ],
+      "description": [
+        "Some of Babidi's goons are still blocking your way. Kill them to continue."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Nninjinentities.majinSoldier1;M6;H10000;333;SMajin Soldiers : You! Stop here!",
+          "killsame;Nninjinentities.majinSoldier2;M4;H10000;333"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2000||align!+5;jinryuujrmcore.missionSys.Protect;119",
+          "tp!fix!2000||align!0;jinryuujrmcore.missionSys.Myself;119",
+          "tp!fix!2000||align!-5;jinryuujrmcore.missionSys.Evil;119"
+        ]
+      ]
+    },
+    {
+      "id": 119,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.34.title"
+      ],
+      "description": [
+        "dbc.sagasystem.34.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Darbura;H3605432;A120181;Sdbc.MainSaga.34.1;Ddbc.MainSaga.34.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!27500||align!+5;jinryuujrmcore.missionSys.Protect;120",
+          "tp!fix!27500||align!0;jinryuujrmcore.missionSys.Myself;120",
+          "tp!fix!27500||align!-5;jinryuujrmcore.missionSys.Evil;120"
+        ]
+      ]
+    },
+    {
+      "id": 120,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Majin Vegeta."
+      ],
+      "description": [
+        "Vegeta let Babidi control him. He wants to become a bloodthirsty saiyan like before and fight against you without worrying about the consequences.."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeta2;H668141;A22271;Tninjinentities.vegetaMajin|30|7.90;SVegeta: GWAAAAAAH!! Gouh... Gouh...! WAAAAAAH!!... I'll kill you... Just fight!;DVegeta: Farewell Trunks, Bulma, and... Kakarot..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!40000||align!+5;jinryuujrmcore.missionSys.Protect;121",
+          "tp!fix!40000||align!0;jinryuujrmcore.missionSys.Myself;121",
+          "tp!fix!40000||align!-5;jinryuujrmcore.missionSys.Evil;121"
+        ]
+      ]
+    },
+    {
+      "id": 121,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.35.title"
+      ],
+      "description": [
+        "dbc.sagasystem.35.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BuuFat;H5814592;A166131;Sdbc.MainSaga.35.1;Ddbc.MainSaga.35.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!45000||align!+5;jinryuujrmcore.missionSys.Protect;122",
+          "tp!fix!45000||align!0;jinryuujrmcore.missionSys.Myself;122",
+          "tp!fix!45000||align!-5;jinryuujrmcore.missionSys.Evil;122"
+        ]
+      ]
+    },
+    {
+      "id": 122,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Buu is still alive."
+      ],
+      "description": [
+        "Buu has survived your attack. Go see Goku to know what to do."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.gokumaster;GI don't think I can beat Buu... But I thought it would be interesting if we tried the fusion on Goten and Trunks. This technique allows two individuals to obtain a power much greater than they possess separately.;BGood idea!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;123"
+        ]
+      ]
+    },
+    {
+      "id": 123,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Goku Super saiyan 2"
+      ],
+      "description": [
+        "Before learning the fusion to Goten and Trunks, Goku wants to test your strength to see if you can hold back Buu before he attacks the kids."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.goku2;H708141;A23605;Tninjinentities.gokuSsj|40|6.00||ninjinentities.gokuSsj2|40|1.29;SGoku: Prepares you for the fight, I'll go all out! AAAAAAAAAH!!;DGoku: Not bad! But wait a bit... I would like to see if you can hold your own against my new form..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!42500||align!+5;jinryuujrmcore.missionSys.Protect;124",
+          "tp!fix!42500||align!0;jinryuujrmcore.missionSys.Myself;124",
+          "tp!fix!42500||align!-5;jinryuujrmcore.missionSys.Evil;124"
+        ]
+      ]
+    },
+    {
+      "id": 124,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "The Super saiyan 3"
+      ],
+      "description": [
+        "It seems that goku didn't finish with you..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuSsj2;H5488093;A182936;Tninjinentities.gokuSsj3|40|1.16129032258;SGoku: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!! And here is the ultimate form of Super saiyan! You can call it Super saiyan 3!;DGoku: Wow...! You're clearly strong enough to hold back Buu."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!47500||align!+5;jinryuujrmcore.missionSys.Protect;125",
+          "tp!fix!47500||align!0;jinryuujrmcore.missionSys.Myself;125",
+          "tp!fix!47500||align!-5;jinryuujrmcore.missionSys.Evil;125"
+        ]
+      ]
+    },
+    {
+      "id": 125,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.37.title"
+      ],
+      "description": [
+        "dbc.sagasystem.37.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BuuFat;H6616824;A189052;Sdbc.MainSaga.37.1;Ddbc.MainSaga.37.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!50000||align!+5;jinryuujrmcore.missionSys.Protect;126",
+          "tp!fix!50000||align!0;jinryuujrmcore.missionSys.Myself;126",
+          "tp!fix!50000||align!-5;jinryuujrmcore.missionSys.Evil;126"
+        ]
+      ]
+    },
+    {
+      "id": 126,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "The fusion of Goten and Trunks"
+      ],
+      "description": [
+        "Goten and Trunks are training for the fight against Buu. They want to test out their new techniques on you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gotenks;H858141;A28605;Tninjinentities.gotenksSsj|150|6.00;SGotenks: TA DAA!! I am Gotenks! Prepare yourself as you will train with the most powerful warrior of the universe! Hahaha!!;DGotenks: U... Uugh. You're pretty tough!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!40000||align!+5;jinryuujrmcore.missionSys.Protect;127",
+          "tp!fix!40000||align!0;jinryuujrmcore.missionSys.Myself;127",
+          "tp!fix!40000||align!-5;jinryuujrmcore.missionSys.Evil;127"
+        ]
+      ]
+    },
+    {
+      "id": 127,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Ultra Gotenks"
+      ],
+      "description": [
+        "Gotenks seems to panic... But at the last moment reveals that he has one last ultimate technique."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gotenksSsj;H5148846;A171628;Tninjinentities.gotenksSsj3|70|1.5;SGotenks: Oh no! I can't do anything against you!... just kidding! DA DAAA!! HAAAAAAAAAAAH!!... YEAH!! I am Super Ultra Gotenks!;DGotenks: Ouch! Incredible you are as strong as Ultra Gotenks. Maybe more..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!55000||align!+5;jinryuujrmcore.missionSys.Protect;128",
+          "tp!fix!55000||align!0;jinryuujrmcore.missionSys.Myself;128",
+          "tp!fix!55000||align!-5;jinryuujrmcore.missionSys.Evil;128"
+        ]
+      ]
+    },
+    {
+      "id": 128,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Super Buu"
+      ],
+      "description": [
+        "While you were training with Gotenks, Piccolo was observing what Buu was doing. Go talk to him to find out what to do."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.masterpiccolo;GIt's very strange what is happening with Buu. It seemed that he became nice... and then because of this fool, Satan, Buu has completely changed... Now he is pure evil, and his body is only made for fighting! I'm counting on you to get rid of him!;BI'll take care of him!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;129"
+        ]
+      ]
+    },
+    {
+      "id": 129,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.39.title"
+      ],
+      "description": [
+        "dbc.sagasystem.39.desc"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BuuSuper;H7998428;A228571;Sdbc.MainSaga.39.1;Ddbc.MainSaga.39.d"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!65000||align!+5;jinryuujrmcore.missionSys.Protect;130",
+          "tp!fix!65000||align!0;jinryuujrmcore.missionSys.Myself;130",
+          "tp!fix!65000||align!-5;jinryuujrmcore.missionSys.Evil;130"
+        ]
+      ]
+    },
+    {
+      "id": 130,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Gohan Ultimate"
+      ],
+      "description": [
+        "Buu does not seem to have survived your last attack. Gohan is back from training with the Supreme Kai Shin and got an incredible power. You ask him that he show you his power."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gohanUltimate;H8247126;A274904;SDid you beat Buu? Incredible... What? You want me to show you my strength? If you want, I does not bother me!;DYou are super strong, really!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!70000||align!+5;jinryuujrmcore.missionSys.Protect;131",
+          "tp!fix!70000||align!0;jinryuujrmcore.missionSys.Myself;131",
+          "tp!fix!70000||align!-5;jinryuujrmcore.missionSys.Evil;131"
+        ]
+      ]
+    },
+    {
+      "id": 131,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Buutenks"
+      ],
+      "description": [
+        "Oh no! While you were fighting Gohan. Buu, who was not dead, has taken this opportunity to absorb Gotenks and Piccolo. His power became enormous! But the fusion of Gotenks should soon end..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BuuFusion;H9898428;A282812;Tjinryuudragonblockc.BuuPiccolo|500|0.82;SSuper Buu: You just have witness the birth of the strongest demon that has ever existed! I have to finish this quickly! Gotenks does not last long...;DSuper Buu: Wooh! Damn...! Well I did left some insurance..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!75000||align!+5;jinryuujrmcore.missionSys.Protect;132",
+          "tp!fix!75000||align!0;jinryuujrmcore.missionSys.Myself;132",
+          "tp!fix!75000||align!-5;jinryuujrmcore.missionSys.Evil;132"
+        ]
+      ]
+    },
+    {
+      "id": 132,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Buuhan"
+      ],
+      "description": [
+        "When you were going to finish Buutenks, he turned into Buuccolo, the fusion of the kids having finished. Unfortunately Buu managed to absorb Gohan! He got even stronger!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BuuUltimate;H10347281;A295637;SSuper Buu: Fu Ha Ha! This is fantastic! I became even more powerful than before! And without a time limit!;DSuper Buu: Gouaaaah!! Bastard! This is impossible!! How can you be so strong...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!85000||align!+5;jinryuujrmcore.missionSys.Protect;133",
+          "tp!fix!85000||align!0;jinryuujrmcore.missionSys.Myself;133",
+          "tp!fix!85000||align!-5;jinryuujrmcore.missionSys.Evil;133"
+        ]
+      ]
+    },
+    {
+      "id": 133,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Vegeto"
+      ],
+      "description": [
+        "While you were fighting Buu, Goku was looking for someone to merge with using the Potaras. Unfortunately no one was available for this. Until Vegeta arrives on Earth returning from the dead. By merging they have created the super warrior Vegeto! Vegeto Sees that you have already beaten Super Buu and is very disappointed... Now he wants to test his new power on you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeto;H3774423;A125814;Tninjinentities.vegetoSsj|50|4.0;SVegeto: OKAAY!! The fusion between Vegeta and Kakarot? Hmmm... Vegeto? Or rather... Super Vegeto!! Hey you! Did you beat buu??!... you ruined the fusion! And in addition you killed everyone who was inside Buu! Come and fight to be forgiven!;DVegeto: Hmmpf... You are powerful indeed... But you're lucky that I'm not fighting seriously..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!100000||align!+5;jinryuujrmcore.missionSys.Protect;134",
+          "tp!fix!100000||align!0;jinryuujrmcore.missionSys.Myself;134",
+          "tp!fix!100000||align!-5;jinryuujrmcore.missionSys.Evil;134"
+        ]
+      ]
+    },
+    {
+      "id": 134,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "Little Buu"
+      ],
+      "description": [
+        "Buu was not dead yet! Vegeto let himself be absorbed to try and recover his friends and his family who were absorbed. But the fusion stopped inside Buu for an unknown reason. Vegeta and Goku also managed to recover their friends and family, so Buu was made much weaker! finish him!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.BuuKid;H7848350;A261612;SKid Buu: Haaaah! Kiiih! DKid Buu: Kouaaaah!! Uhooooooo...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!62500||align!+5;jinryuujrmcore.missionSys.Protect;135",
+          "tp!fix!62500||align!0;jinryuujrmcore.missionSys.Myself;135",
+          "tp!fix!62500||align!-5;jinryuujrmcore.missionSys.Evil;135"
+        ]
+      ]
+    },
+    {
+      "id": 135,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.buu"
+      ],
+      "subtitle": [
+        "The end of Buu"
+      ],
+      "description": [
+        "Buu is utterly destroyed with no trace of him left. Goku wanted him to be reincarnated as a good person. Earth is at peace again, but for how long?"
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;136"
+        ]
+      ]
+    },
+    {
+      "id": 136,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Battle of the Gods"
+      ],
+      "subtitle": [
+        "Meeting with the Gods."
+      ],
+      "description": [
+        "Whis is the Guide Angel Attendant of Beerus the God Of Destruction of this universe. He wants to talk with you about a matter."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.whismaster;GHello, I would like to talk to you about a matter concerning lord Beerus. The oracle fish told him that a mortal ascending to god level strength worthy of him will appears soon. So I would like you to investigate this matter since you seems to be quite strong! Maybe this rival could be you... But you will need some training;BI can become stronger!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;137"
+        ]
+      ]
+    },
+    {
+      "id": 137,
+      "translated": true,
+      "props": [
+        "default",
+        "saiyan"
+      ],
+      "align": [
+        "neutral",
+        "neutral"
+      ],
+      "title": [
+        "The Battle of the Gods",
+        "The Battle of the Gods"
+      ],
+      "subtitle": [
+        "Reach the power of gods.",
+        "Reach the power of gods."
+      ],
+      "description": [
+        "For the next fight reach at least the power of the gods.",
+        "For the next fight reach at least the power of the gods."
+      ],
+      "objectives": [
+        [
+          "next",
+          "state;NGod"
+        ],
+        [
+          "next",
+          "state;NSSGod;NSSGodR"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;138"
+        ],
+        [
+          "nothing;Next;138"
+        ]
+      ]
+    },
+    {
+      "id": 138,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Battle of the Gods"
+      ],
+      "subtitle": [
+        "Beerus arrives on Earth"
+      ],
+      "description": [
+        "Beerus is the God of Destruction of this Universe. He has heard that someone very strong is here. Try to convince Beerus not to destroy the Earth by fighting with him."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Beerus;H17000000;A566667;Tjinryuudragonblockc.Beerus|200|1.1;SBeerus: Let's see if you are as powerful as they say;DBeerus: You are strong... I will not destroy the Earth but I will come back..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!150000||align!+5;jinryuujrmcore.missionSys.Protect;139",
+          "tp!fix!150000||align!0;jinryuujrmcore.missionSys.Myself;139",
+          "tp!fix!150000||align!-5;jinryuujrmcore.missionSys.Evil;139"
+        ]
+      ]
+    },
+    {
+      "id": 139,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Battle of the Gods"
+      ],
+      "subtitle": [
+        "Training with the Gods."
+      ],
+      "description": [
+        "Beerus is very strong, and apparently Whis was the one to train him to this strength. Try to convince him to give you a proper training!"
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.whismaster;GGreetings. I heard you wanted to be train by me, is that correct ? I don't see why not... But you will have to give me something delicious in exchange.;BOkay, I will bring you something."
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;140"
+        ]
+      ]
+    },
+    {
+      "id": 140,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Battle of the Gods"
+      ],
+      "subtitle": [
+        "Something good"
+      ],
+      "description": [
+        "Whis agrees to train you on one condition: that you brought him something good to eat."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "item;Ncake;M1",
+          "kill;Nninjinentities.whis;H19000000;A616667;SWhis: Hmm... Interesting... This cake is very good! Now that I'm done we can start this training.;DWhis: Ah... much better than I thought."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!160000||align!+5;jinryuujrmcore.missionSys.Protect;141",
+          "tp!fix!160000||align!0;jinryuujrmcore.missionSys.Myself;141",
+          "tp!fix!160000||align!-5;jinryuujrmcore.missionSys.Evil;141"
+        ]
+      ]
+    },
+    {
+      "id": 141,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "The Battle of the Gods"
+      ],
+      "subtitle": [
+        "Training with Goku and Vegeta"
+      ],
+      "description": [
+        "Goku and Vegeta are also training with Whis. They now want to train with you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuSuper;H1042351;A34745;Tninjinentities.gokuSuperSsj|150|6.0;SGoku: Come on, let's go for a little training!;DGoku: Phew... I feel stronger than before!",
+          "kill;Nninjinentities.vegetaSuper;H1032761;A34425;;Tninjinentities.vegetaSuperSsj|150|6.0;SVegeta: Aah... Whis didn't want us to transform... But I'm not going to hesitate with you!;DVegeta: Hmmpf, you’ve gotten better than before... "
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!145000||align!+5;jinryuujrmcore.missionSys.Protect;142",
+          "tp!fix!145000||align!0;jinryuujrmcore.missionSys.Myself;142",
+          "tp!fix!145000||align!-5;jinryuujrmcore.missionSys.Evil;142"
+        ]
+      ]
+    },
+    {
+      "id": 142,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Return of F"
+      ],
+      "subtitle": [
+        "Freezer's soldiers"
+      ],
+      "description": [
+        "Freeza has been revived with the Dragon Blocks! Take care of Freezer and his men before it's too late!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "killsame;Njinryuudragonblockc.FreezaSoldier1;M3;H100125;A3050",
+          "killsame;Njinryuudragonblockc.FreezaSoldier2;M3;H110428;A3081",
+          "killsame;Njinryuudragonblockc.FreezaSoldier3;M3;H120252;A4005"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!10000||align!+5;jinryuujrmcore.missionSys.Protect;143",
+          "tp!fix!10000||align!0;jinryuujrmcore.missionSys.Myself;143",
+          "tp!fix!10000||align!-5;jinryuujrmcore.missionSys.Evil;143"
+        ]
+      ]
+    },
+    {
+      "id": 143,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Return of F"
+      ],
+      "subtitle": [
+        "Shisami the elite soldier"
+      ],
+      "description": [
+        "Shisami is one of the best soldiers in the army of Freeza. Get rid of him."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Shisami;H3067308;A102244;SShisami: Aah... I was tired of waiting... UAAAAAAH!!;DShisami: What...? Aaaarg... "
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!50000||align!+5;jinryuujrmcore.missionSys.Protect;144",
+          "tp!fix!50000||align!0;jinryuujrmcore.missionSys.Myself;144",
+          "tp!fix!50000||align!-5;jinryuujrmcore.missionSys.Evil;144"
+        ]
+      ]
+    },
+    {
+      "id": 144,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Return of F"
+      ],
+      "subtitle": [
+        "Togama the punching bag"
+      ],
+      "description": [
+        "Togama was used as a punching bag by Freeza during his training and his power became far above the classic Freeza soldiers."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Tagoma;H8054139;A268471;STagoma: Come on! I'm your opponent now! I will crush you in less than 3 minutes!;DTagoma: Wait...! Ouaaaaaarg!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!90000||align!+5;jinryuujrmcore.missionSys.Protect;145",
+          "tp!fix!90000||align!0;jinryuujrmcore.missionSys.Myself;145",
+          "tp!fix!90000||align!-5;jinryuujrmcore.missionSys.Evil;145"
+        ]
+      ]
+    },
+    {
+      "id": 145,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Return of F"
+      ],
+      "subtitle": [
+        "Freeza's turn!"
+      ],
+      "description": [
+        "Freeza has been revived with the Dragon Blocks! Take care of Freeza before it's too late!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Freeza5;H4650000;A155000;Tjinryuudragonblockc.FreezaGolden|50|4.33;SFreeza: I patiently spent years in hell so I could finally take revenge!DFreeza: Me... Losing against these weak creatures... Impossible!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!250000||align!+5;jinryuujrmcore.missionSys.Protect;146",
+          "tp!fix!250000||align!0;jinryuujrmcore.missionSys.Myself;146",
+          "tp!fix!250000||align!-5;jinryuujrmcore.missionSys.Evil;146"
+        ]
+      ]
+    },
+    {
+      "id": 146,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Return of F"
+      ],
+      "subtitle": [
+        "The end of Freeza"
+      ],
+      "description": [
+        "Freeza just before you end him, tried to destroy the Earth. Fortunately Whis, who was there, went back in time by 2 min and Goku managed to kill Freeza before he destroyed the planet."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;147"
+        ]
+      ]
+    },
+    {
+      "id": 147,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "Training with Goku and Vegeta part 2"
+      ],
+      "description": [
+        "Goku and Vegeta are training with Whis again. They want to train with you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuSuper;H1342351;A44745;Tninjinentities.gokuSuperSsjb|90|16.0;SGoku: This time I will give you a hard time!;DGoku: I thought I could defeat you in this form... hahaha!",
+          "kill;Nninjinentities.vegetaSuper;H1332761;A44425;Tninjinentities.vegetaSuperSsjb|80|16.0;SVegeta: You think You can beat me in my blue form?!;DVegeta: How does he manage to always be ahead of us...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!3000000||align!+5;jinryuujrmcore.missionSys.Protect;148",
+          "tp!fix!3000000||align!0;jinryuujrmcore.missionSys.Myself;148",
+          "tp!fix!3000000||align!-5;jinryuujrmcore.missionSys.Evil;148"
+        ]
+      ]
+    },
+    {
+      "id": 148,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "Champa and Vados"
+      ],
+      "description": [
+        "Champa and Vados are the brother and sister of Beerus and Whis. The first manage the universe 6 and the other our own universe, universe 7. Champa defies Beerus in a 5 vs 5 tournament, between the most powerful mortals of the two Universes. If Champa wins he can use the Super Dragon Balls to recover Earth from Universe 7, otherwise he will give the 6 Super Dragon Balls he found at Beerus."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;149"
+        ]
+      ]
+    },
+    {
+      "id": 149,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "The tournament against the Universe 6 #1"
+      ],
+      "description": [
+        "It's the start of the tournament. Your first opponent is Botamo, a sort of giant with yellow skin."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Botamo;H1206047;A34458;SBotamo:...;DBotamo: Nghk... Bastard!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!10000||align!+5;jinryuujrmcore.missionSys.Protect;150",
+          "tp!fix!10000||align!0;jinryuujrmcore.missionSys.Myself;150",
+          "tp!fix!10000||align!-5;jinryuujrmcore.missionSys.Evil;150"
+        ]
+      ]
+    },
+    {
+      "id": 150,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "The tournament against the Universe 6 #2"
+      ],
+      "description": [
+        "Frost is a warrior from universe 6, who looks strangely a lot like Freeza."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.frost1;H1001428;A40057;Tninjinentities.frost3|150|2.0F||ninjinentities.frost4|150|1.5F;SFrost: nice to meet you! Let's do our best and give our all!;DFrost: Ngh...! Impossible... My needle of poison did not work..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!20000||align!+5;jinryuujrmcore.missionSys.Protect;151",
+          "tp!fix!20000||align!0;jinryuujrmcore.missionSys.Myself;151",
+          "tp!fix!20000||align!-5;jinryuujrmcore.missionSys.Evil;151"
+        ]
+      ]
+    },
+    {
+      "id": 151,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "The tournament against the Universe 6 #3"
+      ],
+      "description": [
+        "Auta Magetta is a MetalMen. A race of individuals looking like robots. "
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Magetta;H6529173;A217639;SAuta Magetta: TOOOOOOT!;DAuta Magetta: Toooot...! Too..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!40000||align!+5;jinryuujrmcore.missionSys.Protect;152",
+          "tp!fix!40000||align!0;jinryuujrmcore.missionSys.Myself;152",
+          "tp!fix!40000||align!-5;jinryuujrmcore.missionSys.Evil;152"
+        ]
+      ]
+    },
+    {
+      "id": 152,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "The tournament against the Universe 6 #4"
+      ],
+      "description": [
+        "Cabba is one of the strongest warriors of universe 6 and also a saiyan of this universe."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.cabba;H1206047;A34458;Tninjinentities.cabbaSsj|150|4.0;SCabba: Happy to make your acquaintance. I will give everything I have against you!;DCabba: I give up..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!50000||align!+5;jinryuujrmcore.missionSys.Protect;153",
+          "tp!fix!50000||align!0;jinryuujrmcore.missionSys.Myself;153",
+          "tp!fix!50000||align!-5;jinryuujrmcore.missionSys.Evil;153"
+        ]
+      ]
+    },
+    {
+      "id": 153,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "The tournament against the Universe 6 #5"
+      ],
+      "description": [
+        "Hit is a legendary assassin of the universe 6. It will be very tough to beat, so be careful!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.hit;H25500000;A850000;SHit:... I advise you to go full strength directly...;DHit: Nghk! Ngaaaaaah...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!500000||align!+5;jinryuujrmcore.missionSys.Protect;154",
+          "tp!fix!500000||align!0;jinryuujrmcore.missionSys.Myself;154",
+          "tp!fix!500000||align!-5;jinryuujrmcore.missionSys.Evil;154"
+        ]
+      ]
+    },
+    {
+      "id": 154,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe 6"
+      ],
+      "subtitle": [
+        "Monaka the Ultimate Warrior"
+      ],
+      "description": [
+        "In case you fail, Monaka of universe 7, the most powerful Warrior of universe 7 according to Beerus, would have taken over. You want to try to attack him from behind to see how strong he is."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Monaka;H100;A3.33;SMonaka:...;DMonaka: Aaaaaaah...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!10||align!+5;jinryuujrmcore.missionSys.Protect;155",
+          "tp!fix!10||align!0;jinryuujrmcore.missionSys.Myself;155",
+          "tp!fix!10||align!-5;jinryuujrmcore.missionSys.Evil;155"
+        ]
+      ]
+    },
+    {
+      "id": 155,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "The future is in danger! Help Trunks!"
+      ],
+      "description": [
+        "Trunks just got back from the future unconscious. Once his consciousness returned, he explains that a man strangely looking like Goku and called Goku Black, appeared all of a sudden in the future and continues to carry out massacres, leading the world to the brink of extinction. Help Trunks beat him!"
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;156"
+        ]
+      ]
+    },
+    {
+      "id": 156,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Super saiyan Trunks"
+      ],
+      "description": [
+        "You want to show your power so that Trunks is reassured on the fact that you can beat easily this fake Goku."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.trunksFuturSuper;H1540597;A51353;Tninjinentities.trunksFuturSuperSsj2|50|7.75F;STrunks: I've been training for 10 years as if my life depended on it...;DTrunks: Ouch... You are very powerful... But I don't know if it will be enough against Goku Black..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!250000||align!+5;jinryuujrmcore.missionSys.Protect;157",
+          "tp!fix!250000||align!0;jinryuujrmcore.missionSys.Myself;157",
+          "tp!fix!250000||align!-5;jinryuujrmcore.missionSys.Evil;157"
+        ]
+      ]
+    },
+    {
+      "id": 157,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Zamasu the Supreme Kai's apprentice"
+      ],
+      "description": [
+        "After investigation you realize that Goku Black is an apprentice of the Supreme Kai of the universe 10 called Zamasu. He uses the Super Dragon Ball in order to exchange his body with Goku. You decide to go in the future with Trunks, Vegeta and Goku to end Goku Black."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuBlack;H1693704;A56457;Tninjinentities.gokuBlackSsj|150|7.00F;SGoku Black: You want to kill me? This is perfect, I had enough of using Trunks as a punching bag.;DGoku Black: NNGGHHHH!!! I... I am the one who has defeated all the Gods..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!300000||align!+5;jinryuujrmcore.missionSys.Protect;158",
+          "tp!fix!300000||align!0;jinryuujrmcore.missionSys.Myself;158",
+          "tp!fix!300000||align!-5;jinryuujrmcore.missionSys.Evil;158"
+        ]
+      ]
+    },
+    {
+      "id": 158,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Zamasu the immortal"
+      ],
+      "description": [
+        "At the last moment before you killing Goku Black, another Zamasu, but in his original body, appears out of nowhere and saves him. He then heals Goku Black and with his saiyans genes, Black became much stronger! Take care of Zamasu!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.zamasu;H1420768;A47359;SZamasu: You want to fight? Very well...;DZamasu:...Hahaha... Haaa... You can't kill me... I am immortal!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!100000||align!+5;jinryuujrmcore.missionSys.Protect;159",
+          "tp!fix!100000||align!0;jinryuujrmcore.missionSys.Myself;159",
+          "tp!fix!100000||align!-5;jinryuujrmcore.missionSys.Evil;159"
+        ]
+      ]
+    },
+    {
+      "id": 159,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Training with Vegeta Against Black and Zamasu"
+      ],
+      "description": [
+        "Zamasu cannot be defeated because of his immortality. Goku went to see Roshi to learn Mafuba so he could lock Zamasu. You decide to train, Vegeta wants to join you."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeta;H1800000;A60000;Tninjinentities.vegetaSsjg|80|15.0;SVegeta: The blue form certainly provides a lot of power but this is exhausting very fast... I want to try the God form this time!;DVegeta: Okay... I think it should work against Black."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!550000||align!+5;jinryuujrmcore.missionSys.Protect;160",
+          "tp!fix!550000||align!0;jinryuujrmcore.missionSys.Myself;160",
+          "tp!fix!550000||align!-5;jinryuujrmcore.missionSys.Evil;160"
+        ]
+      ]
+    },
+    {
+      "id": 160,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Goku Black Rose"
+      ],
+      "description": [
+        "After training you decide to go back to the future to end Black and Zamasu."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuBlack;H1856193;A61873;Tninjinentities.gokuBlackR|50|16.0;SGoku Black: You took some time... I hope you have changed a bit since the last time.;DGoku Black: NGH!!! Ho...How can you get so much power from this body...?!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!575000||align!+5;jinryuujrmcore.missionSys.Protect;161",
+          "tp!fix!575000||align!0;jinryuujrmcore.missionSys.Myself;161",
+          "tp!fix!575000||align!-5;jinryuujrmcore.missionSys.Evil;161"
+        ]
+      ]
+    },
+    {
+      "id": 161,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Zamasu Merged"
+      ],
+      "description": [
+        "While you were beating Zamasu and Goku Black. As a last resort, Goku Black hands a potara to Zamasu. They have merged! The power of this new Zamasu is incredible!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.zamasuMerged;H38250000;A1275000;SZamasu Merged: The one and only true god of all the universes ... Rejoice mortals for it is an honor to behold this form.;DZamasu Merged: I can't let... My plan... Be stopped... Like this...!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!800000||align!+5;jinryuujrmcore.missionSys.Protect;162",
+          "tp!fix!800000||align!0;jinryuujrmcore.missionSys.Myself;162",
+          "tp!fix!800000||align!-5;jinryuujrmcore.missionSys.Evil;162"
+        ]
+      ]
+    },
+    {
+      "id": 162,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "Vegeto Blue"
+      ],
+      "description": [
+        "While you were fighting Zamasu Merged, Shin gave the potaras to Goku to merge with Vegeta. Vegeta refused at the beginning but accepted when he learned that the fusion with mortals lasts only an hour. Vegeto Sees that you have already beaten Zamasu and is very disappointed ... Now he wants to test his new power on you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeto;H2616282;A87209;Tninjinentities.vegetoSsjb|50|16.0;SVegeto: OKAAY!! I am Vegeto! Or rather... Vegeto Blue!! You've beaten Zamasu??!... you ruined the fusion again! Come and fight to be forgiven!;DVegeto: Hmmpf... You are powerful indeed... But you are lucky that I am not fighting seriously because we are friends..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1000000||align!+5;jinryuujrmcore.missionSys.Protect;163",
+          "tp!fix!1000000||align!0;jinryuujrmcore.missionSys.Myself;163",
+          "tp!fix!1000000||align!-5;jinryuujrmcore.missionSys.Evil;163"
+        ]
+      ]
+    },
+    {
+      "id": 163,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Future Trunks' return"
+      ],
+      "subtitle": [
+        "You have saved the future! Maybe not..."
+      ],
+      "description": [
+        "As you fight Vegeto, you realize that Zamasu is still alive! Unfortunately the fusion of Vegeto is finished... Goku in a last hope called Zeno-sama, the God of all the Universe. Zeno-sama seeing this disaster decided to destroy all the universe. Fortunately you managed to get back in the past before it is too late."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;164"
+        ]
+      ]
+    },
+    {
+      "id": 164,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Training with the Gods"
+      ],
+      "subtitle": [
+        "Training with Whis"
+      ],
+      "description": [
+        "You decide to go to Beerus planet to train with Whis. He still asks you for food before training ..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "item;Ncake;M1",
+          "kill;Nninjinentities.whis;H30150000;A1005000;SWhis: So, you still want to train with me? Agreed, but I will not be as nice as the last time, hohoho!;DWhis: Pretty good. You start to have less useless movements."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!700000||align!+5;jinryuujrmcore.missionSys.Protect;165",
+          "tp!fix!700000||align!0;jinryuujrmcore.missionSys.Myself;165",
+          "tp!fix!700000||align!-5;jinryuujrmcore.missionSys.Evil;165"
+        ]
+      ]
+    },
+    {
+      "id": 165,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Training with the Gods"
+      ],
+      "subtitle": [
+        "Training with Beerus"
+      ],
+      "description": [
+        "While you train with Whis, Beerus discusses with the fish oracle. Fish oracle is a fish living in the planet of Beerus, which has divinatory power. The oracle told him that you are going to become a formidable opponent for Beerus. But Beerus does not believe it."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Beerus;H35070000;A1169000;SBeerus: You seem to be pretty confident. It's been a while since you've tried to fight against me... So what do you say? DBeerus: Hmmpf... Little shit! Don't be so arrogant, I held myself back against you..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!750000||align!+5;jinryuujrmcore.missionSys.Protect;166",
+          "tp!fix!750000||align!0;jinryuujrmcore.missionSys.Myself;166",
+          "tp!fix!750000||align!-5;jinryuujrmcore.missionSys.Evil;166"
+        ]
+      ]
+    },
+    {
+      "id": 166,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The destruction of the universe"
+      ],
+      "description": [
+        "Zeno-Sama thinks that there is too many universes and is thinking of deleting several, including ours! Fortunately Goku, who became his friend, convinced him to make a tournament between the universes before. The universe that wins the tournament will not be destroyed and will have the opportunity to use the Super Dragon Balls."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;167"
+        ]
+      ]
+    },
+    {
+      "id": 167,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "Toppo, the candidate to become god of destruction"
+      ],
+      "description": [
+        "Zeno-Sama wants to see what could be a tournament like. He wants you to fight with Toppo, a candidate to become God of Destruction of universe 11. You will need to go to the tournament realm, Whis should be able to send you there."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.toppo;H36600000;A1220000;SToppo: Who are you? Are you a candidate to become a God of Destruction, too?;DToppo: Wow... well I didn't think that any other mortal than Jiren could beat me..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!775000||align!+5;jinryuujrmcore.missionSys.Protect;168",
+          "tp!fix!775000||align!0;jinryuujrmcore.missionSys.Myself;168",
+          "tp!fix!775000||align!-5;jinryuujrmcore.missionSys.Evil;168"
+        ]
+      ]
+    },
+    {
+      "id": 168,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power"
+      ],
+      "description": [
+        "The tournament will take place soon! It is necessary to gather 10 Warriors of each Universe for a free for all between universes. Surviving fighters from the winning universe will be able to make a wish with the Super Dragon Balls. The other universes will be deleted by Zeno-Sama. Go see Goku to find out what to do."
+      ],
+      "objectives": [
+        [
+          "next",
+          "talk;Njinryuudragonblockc.gokumaster;GI want to be at this tournament! But we must quickly find enough warriors. You can count on me, I'll take care of convincing Gohan and the others to come!;BOkay!"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Skip;169"
+        ]
+      ]
+    },
+    {
+      "id": 169,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "Training of Gohan"
+      ],
+      "description": [
+        "Piccolo offered to train with you and Gohan for the power tournament."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gohanAdult;H1592175;A53072;Tninjinentities.gohanAdultSsj|50|6.0;SGohan: I'm going to have to train hard if I want to catch up with dad and the others ...;DGohan: Hehehe, I already feel stronger.",
+          "kill;Nninjinentities.piccolo;H9429019;A314301;SPiccolo: Let's go Gohan! You haven't been training for too long, your strength isn't what it used to be.;DPiccolo:...Thank you for the training."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!150000||align!+5;jinryuujrmcore.missionSys.Protect;170",
+          "tp!fix!150000||align!0;jinryuujrmcore.missionSys.Myself;170",
+          "tp!fix!150000||align!-5;jinryuujrmcore.missionSys.Evil;170"
+        ]
+      ]
+    },
+    {
+      "id": 170,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "Training with Freeza"
+      ],
+      "description": [
+        "Goku has managed to convince Freeza to join you for the tournament. Goku offers to train with him."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.goku2;H2191207;A73040;Tninjinentities.gokuSsjb|50|16.0;SGoku: I've become much stronger since the fight against Zamasu!;DGoku: I see you never stop training, huh?",
+          "kill;Njinryuudragonblockc.Freeza5;H7650000;A255000;Tjinryuudragonblockc.FreezaGolden|50|4.33;SFreeza: Do you think you are training with me? No, I am just letting off steam with you in order to take revenge for the last time!;DFreeza: Uugh...!!...Do you think you're strong...?!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1000000||align!+5;jinryuujrmcore.missionSys.Protect;171",
+          "tp!fix!1000000||align!0;jinryuujrmcore.missionSys.Myself;171",
+          "tp!fix!1000000||align!-5;jinryuujrmcore.missionSys.Evil;171"
+        ]
+      ]
+    },
+    {
+      "id": 171,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The start of the tournament"
+      ],
+      "description": [
+        "Go to the tournament of power! Prepare you on a series of fights against lots of enemies from all the universes!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;172"
+        ]
+      ]
+    },
+    {
+      "id": 172,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #1"
+      ],
+      "description": [
+        "This is the beginning of the tournament! Watch out! Frost, Botamo and Magetta are attacking you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Njinryuudragonblockc.Botamo;H9206047;A306868;SBotamo:...;DBotamo:Nghk... Bastard!",
+          "kill;Njinryuudragonblockc.Magetta;H10529173;A350972;Auta Magetta: TOOOOOOT!;DAuta Magetta: Toooot...! Too...",
+          "kill;Nninjinentities.frost4;H16681027;A556034;SFrost: You'll be the first to fall!;DFrost: Gaaah... Kah..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!80000||align!+5;jinryuujrmcore.missionSys.Protect;173",
+          "tp!fix!80000||align!0;jinryuujrmcore.missionSys.Myself;173",
+          "tp!fix!80000||align!-5;jinryuujrmcore.missionSys.Evil;173"
+        ]
+      ]
+    },
+    {
+      "id": 173,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #2"
+      ],
+      "description": [
+        "The trio of danger is a group of 3 fighters from universe 9."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.bergamo;H9917808;A330594;SBergamo: Already loosing, universe 7?;DBergamo: GAH!",
+          "kill;Nninjinentities.basil;H8508149;A283605;SBasil: You want a fight? The trio of danger will face you.;DBasil: GYAAH!!",
+          "kill;Nninjinentities.lavender;H8759170;A291972;SLavender:...;DLavender: GAAH!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!75000||align!+5;jinryuujrmcore.missionSys.Protect;174",
+          "tp!fix!75000||align!0;jinryuujrmcore.missionSys.Myself;174",
+          "tp!fix!75000||align!-5;jinryuujrmcore.missionSys.Evil;174"
+        ]
+      ]
+    },
+    {
+      "id": 174,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #3"
+      ],
+      "description": [
+        "Hit is the legendary assassin of the universe 6 that you had already fought before."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.hit;H35500000;A1183333;SHit: I'm much stronger than the last time... prepare yourself!;DHit: Gaaah! Crap... I underestimated you... "
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!800000||align!+5;jinryuujrmcore.missionSys.Protect;175",
+          "tp!fix!800000||align!0;jinryuujrmcore.missionSys.Myself;175",
+          "tp!fix!800000||align!-5;jinryuujrmcore.missionSys.Evil;175"
+        ]
+      ]
+    },
+    {
+      "id": 175,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #4"
+      ],
+      "description": [
+        "Pilina and Saonel are two nameks of universe 6."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.pilina;H6178268;A205942;SPilina: You also have namek in your world...;DPilina: GWAAAH!!",
+          "kill;Nninjinentities.saonel;H6103481;A203449;SSaonel:... too bad for your universe that will no longer be.;DSaonel: GYAAH!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!60000||align!+5;jinryuujrmcore.missionSys.Protect;176",
+          "tp!fix!60000||align!0;jinryuujrmcore.missionSys.Myself;176",
+          "tp!fix!60000||align!-5;jinryuujrmcore.missionSys.Evil;176"
+        ]
+      ]
+    },
+    {
+      "id": 176,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #5"
+      ],
+      "description": [
+        "The trio of saiyans from universe 6 are attacking you. Caulifla and Kale are two women saiyans who have been brought by Cabba."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.cabba;H3517480;A117249;Tninjinentities.cabbaSsj|50|4.0;SCabba: Ah I remember you, but this time I am not alone...;DCabba: Aarg... you are much stronger than the last time...",
+          "kill;Nninjinentities.caulifla;H3781047;A126034;Tninjinentities.cauliflaSsj|60|4.0;SCaulifla: Go! I'll show you the super saiyan form, you'll be in shock!;DCaulifla: Hmmpf... do you think you're so clever ?!",
+          "kill;Nninjinentities.kale;H3400000;A113333;Tninjinentities.kaleSsjL|200|7.75;SKale: Big sister can't... lose...;DKale: AAAAARG!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!900000||align!+5;jinryuujrmcore.missionSys.Protect;177",
+          "tp!fix!900000||align!0;jinryuujrmcore.missionSys.Myself;177",
+          "tp!fix!900000||align!-5;jinryuujrmcore.missionSys.Evil;177"
+        ]
+      ]
+    },
+    {
+      "id": 177,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #6"
+      ],
+      "description": [
+        "Seven members of the pride troopers decides to take you on!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.kahseral;H20000000;A666667;SKahseral: Let's attack together!;DKahseral: GUAAAAAH!!",
+          "kill;Nninjinentities.cocotte;H10000000;A333333;SPride Troopers: Right! The light protecting peace in the universe! We are the pride troopers!;DYAAAAAAAAAAAAH!!",
+          "kill;Nninjinentities.vewon;H10000000;A333333;DVewon: OOOOOOOOH!!",
+          "kill;Nninjinentities.tupper;H10500000;A330000;DTupper: No... NOOOOO!! AAAAAAH!",
+          "kill;Nninjinentities.zoire;H10000000;A333333;DZoire: WAAAAAAAAA!!",
+          "kill;Nninjinentities.kettle;H11000000;A366667;DKettle: WAAAARG!!!",
+          "kill;Nninjinentities.knsi;H13000000;A433333;K'nsi: GWAAARH!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!950000||align!+5;jinryuujrmcore.missionSys.Protect;178",
+          "tp!fix!950000||align!0;jinryuujrmcore.missionSys.Myself;178",
+          "tp!fix!950000||align!-5;jinryuujrmcore.missionSys.Evil;178"
+        ]
+      ]
+    },
+    {
+      "id": 178,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #7"
+      ],
+      "description": [
+        "Agnilasa is the result of the fusion between several members of Universe 3. He is really really strong so try to dodge his attacks!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.aniraza;H35000000;A1166667;Tninjinentities.aniraza2|300|1.1;SAgnilasa: HE HE HE...! YOU CAN'T BEAT ME!;DAgnilaza: WAAAAAAA...! NOOOOO...!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!950000||align!+5;jinryuujrmcore.missionSys.Protect;179",
+          "tp!fix!950000||align!0;jinryuujrmcore.missionSys.Myself;179",
+          "tp!fix!950000||align!-5;jinryuujrmcore.missionSys.Evil;179"
+        ]
+      ]
+    },
+    {
+      "id": 179,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #8"
+      ],
+      "description": [
+        "Dyspo is a member of the pride troopers with Toppo. It is said to be the fastest of his group."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.dyspo;H25800000;A860000;SDyspo: Just try to hit me if you can.;DDyspo: Oooh! Shit...!",
+          "kill;Nninjinentities.toppo;H36600000;A1220000;Tninjinentities.toppoGOD|200|1.33;SToppo: A candidate for the position of God of Destruction can not lose against a mortal.;DToppo: Wah...! How can you do that...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1200000||align!+5;jinryuujrmcore.missionSys.Protect;180",
+          "tp!fix!1200000||align!0;jinryuujrmcore.missionSys.Myself;180",
+          "tp!fix!1200000||align!-5;jinryuujrmcore.missionSys.Evil;180"
+        ]
+      ]
+    },
+    {
+      "id": 180,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #9"
+      ],
+      "description": [
+        "Kale and Caulifla have merged! They use the Supreme Kai potaras..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.kefla;H10175000;A339167;Tninjinentities.keflaSsj|50|5.00;SKefla: So much power! So that's the fusion, huh? Kale and Caulifla... My name is Kefla!;DKefla: Uuugh...! So the merger is not even enough..."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1200000||align!+5;jinryuujrmcore.missionSys.Protect;181",
+          "tp!fix!1200000||align!0;jinryuujrmcore.missionSys.Myself;181",
+          "tp!fix!1200000||align!-5;jinryuujrmcore.missionSys.Evil;181"
+        ]
+      ]
+    },
+    {
+      "id": 181,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "The tournament of power #10"
+      ],
+      "description": [
+        "Jiren is the most powerful Warrior of the pride troopers and his Universe. It is said that he is even more powerful than the God of the Destruction of his Universe."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NNull Realm",
+          "kill;Nninjinentities.jiren;H40486000;A1349533;Tninjinentities.jirenSuperFullPower|200|1.5;SJiren: You believe you are strong? I'm going to show you what true strength is!;DJiren: NOOOOO!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1300000||align!+5;jinryuujrmcore.missionSys.Protect;182",
+          "tp!fix!1300000||align!0;jinryuujrmcore.missionSys.Myself;182",
+          "tp!fix!1300000||align!-5;jinryuujrmcore.missionSys.Evil;182"
+        ]
+      ]
+    },
+    {
+      "id": 182,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Universe Survival"
+      ],
+      "subtitle": [
+        "End of the tournament"
+      ],
+      "description": [
+        "While you were winning against Jiren, the latter succeeded in knocking you out of the arena. Although all the combatants seemed to have lost, C-17 which had pretended to be dead, revealed himself in the end. Universe 7 wins! C-17 decides to make the wish to make reappear all the universes."
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;183"
+        ]
+      ]
+    },
+    {
+      "id": 183,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Training with Vegeta"
+      ],
+      "subtitle": [
+        "Vegeta Blue Shinka"
+      ],
+      "description": [
+        "Vegeta wants to train with you, and wants to show you one of his new forms."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.vegeta;H2632761;A87759;Tninjinentities.vegetaSsjb|50|16.0||ninjinentities.vegetaSsjbe|150|1.03125;SVegeta: Hehehe, you're not gonna show off anymore when you're gonna see my new form! A form above the Super saiyan Blue!;DVegeta: How is it possible for you to always be stronger than me...!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1000000||align!+5;jinryuujrmcore.missionSys.Protect;184",
+          "tp!fix!1000000||align!0;jinryuujrmcore.missionSys.Myself;184",
+          "tp!fix!1000000||align!-5;jinryuujrmcore.missionSys.Evil;184"
+        ]
+      ]
+    },
+    {
+      "id": 184,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Broly Super"
+      ],
+      "subtitle": [
+        "The new saiyan Broly"
+      ],
+      "description": [
+        "While Freezer is plotting to cause trouble on Earth ... Two soldiers of Freezer have found two saiyans named Broly and his father Paragus. In the past Broly was sent to an unbearable planet by King Vegeta who considered him a threat. Paragus now wishes to take revenge on King Vegeta by killing his son Vegeta. Freeza, who has seen Broly's huge potential, wants to use it to beat Vegeta, Goku and yourself as well as use the Dragon Balls to make a wish."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.brolySuper;H5158423;A171947;Tninjinentities.brolySuperWrath|250|2.0;SBroly: AAAAAAAAAH!!;DBroly: WWAAAAAAAAAAAAAARG!!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!200000||align!+5;jinryuujrmcore.missionSys.Protect;185",
+          "tp!fix!200000||align!0;jinryuujrmcore.missionSys.Myself;185",
+          "tp!fix!200000||align!-5;jinryuujrmcore.missionSys.Evil;185"
+        ]
+      ]
+    },
+    {
+      "id": 185,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Broly Super"
+      ],
+      "subtitle": [
+        "Broly The enraged saiyan"
+      ],
+      "description": [
+        "Although Broly seemed to be largely of your level, he does not seem to want to give up and is getting stronger ..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.brolySuperWrath;H15158423;A505281;SBroly: AAAAAAAAAH!!;DBroly: WWAAAAAAAAAAAAAARG!!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!300000||align!+5;jinryuujrmcore.missionSys.Protect;186",
+          "tp!fix!300000||align!0;jinryuujrmcore.missionSys.Myself;186",
+          "tp!fix!300000||align!-5;jinryuujrmcore.missionSys.Evil;186"
+        ]
+      ]
+    },
+    {
+      "id": 186,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Broly Super"
+      ],
+      "subtitle": [
+        "The Super saiyan Broly"
+      ],
+      "description": [
+        "While you are fighting Broly, Freeza take the opportunity to kill his father Paragus from behind. Broly enters a state of immeasurable rage ..."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.brolySuperWrath;H16558423;A551947;Tninjinentities.brolySuperSsj|50|4.0;SBroly: AAAAAAAAAH!!;DBroly: WWAAAAAAAAAAAAAARG!!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1400000||align!+5;jinryuujrmcore.missionSys.Protect;187",
+          "tp!fix!1400000||align!0;jinryuujrmcore.missionSys.Myself;187",
+          "tp!fix!1400000||align!-5;jinryuujrmcore.missionSys.Evil;187"
+        ]
+      ]
+    },
+    {
+      "id": 187,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Broly Super"
+      ],
+      "subtitle": [
+        "The legendary saiyan Broly"
+      ],
+      "description": [
+        "Broly's blind rage and power reaches an unimaginable level, far above those of the Gods Prepare you for this mythical fight!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.brolySuperSsj;H66300000;A2210000;Tninjinentities.brolySuperSsjL|50|1.25;SBroly: AAAAAAAAAAAAAAAAAH!!!!;DBroly: WWAAAAAAAAAAAAAARG!!!!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1750000||align!+5;jinryuujrmcore.missionSys.Protect;188",
+          "tp!fix!1750000||align!0;jinryuujrmcore.missionSys.Myself;188",
+          "tp!fix!1750000||align!-5;jinryuujrmcore.missionSys.Evil;188"
+        ]
+      ]
+    },
+    {
+      "id": 188,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Broly Super"
+      ],
+      "subtitle": [
+        "End of the legendary fight"
+      ],
+      "description": [
+        "Well done you managed to defeat Broly! Although he is still alive and has returned to his original planet. Despite the fact that he gets angry easily, his heart is pure, don't be too hard with him!"
+      ],
+      "objectives": [
+        [
+          "skip"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;189"
+        ]
+      ]
+    },
+    {
+      "id": 189,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Training with Goku"
+      ],
+      "subtitle": [
+        "Goku Ultra Instinct"
+      ],
+      "description": [
+        "Goku wants to train with you, and would like to try mastering one of his new forms."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gokuUi;H82800000;A2760000;Tninjinentities.gokuUiM|200|1.0833;SGoku: Can you help me with training my new form, I still have trouble to master it!;DGoku: Haaa... Then even this form is not enough... You are truly the strongest."
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!1900000||align!+5;jinryuujrmcore.missionSys.Protect;190",
+          "tp!fix!1900000||align!0;jinryuujrmcore.missionSys.Myself;190",
+          "tp!fix!1900000||align!-5;jinryuujrmcore.missionSys.Evil;190"
+        ]
+      ]
+    },
+    {
+      "id": 190,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Training with Gogeta"
+      ],
+      "subtitle": [
+        "Goku and Vegeta fuses!"
+      ],
+      "description": [
+        "Your power has reached an unimaginable level ... You asked Goku and Vegeta to merge to give you a fight worthy of your name. Goku managed to convince Vegeta, who was originally hesitant."
+      ],
+      "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Nninjinentities.gogeta;H16620000;A554000;Tninjinentities.gogetaSsj|50|4.0||ninjinentities.gogetaSsjb|150|2.00;SGogeta: Using the potaras it was Vegeto wasn't it ?... So this fusion can be called ... Gogeta! Okay that's cool! Do you think you can beat this fusion? Let's see this!;DGogeta: Uugh... Uuug... Hmpf... Your power is ridiculously amazing...!"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!fix!2500000||align!+5;jinryuujrmcore.missionSys.Protect;191",
+          "tp!fix!2500000||align!0;jinryuujrmcore.missionSys.Myself;191",
+          "tp!fix!2500000||align!-5;jinryuujrmcore.missionSys.Evil;191"
+        ]
+      ]
+    },
+    {
+      "id": 191,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.credits"
+      ],
+      "subtitle": [
+        "dbc.sagasystem.106.title"
+      ],
+      "description": [
+        "dbc.sagasystem.106.desc"
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;192"
+        ]
+      ]
+    },
+    {
+      "id": 192,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "dbc.sagasystem.credits"
+      ],
+      "subtitle": [
+        "End"
+      ],
+      "description": [
+        "You've finished the saga, well done!"
+      ],
+      "objectives": [
+        [
+          "End"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Next;192"
+        ]
+      ]
+    }
+  ]
+}
