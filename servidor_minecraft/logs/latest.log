@@ -13,3 +13,18 @@
 [22:58:51] [User Authenticator #2/INFO]: UUID of player MiguelGatuno is 1dda3f83-1f37-4068-b9ed-ea25edec8180
 [22:58:51] [Server thread/INFO]: MiguelGatuno lost connection: TextComponent{text='Mod rejections [FMLMod:naturescompass{1.3.1}, FMLMod:dragonoptifix{1.0}, FMLMod:jdam{1.7.4}, FMLMod:nbarmors{2.7}, FMLMod:llibrary{1.5.2}, FMLMod:havencorecustomforms{NO-GIT-TAG-SET}, FMLMod:limblossmod{1.0}, FMLMod:backpacks16840{3.5.8}, FMLMod:ubm{1.0-1.7.10}, FMLMod:campfirebackport{1.7.10-1.11.2}, FMLMod:mowziesmobs{1.2.9}, FMLMod:ninjinentities{1.3.0.0}, FMLMod:FoodExpansion{1.0}]', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
 [22:58:51] [Server thread/INFO]: MiguelGatuno left the game
+[23:00:16] [User Authenticator #3/INFO]: UUID of player MiguelGatuno is 1dda3f83-1f37-4068-b9ed-ea25edec8180
+[23:00:17] [Server thread/INFO]: MiguelGatuno lost connection: TextComponent{text='Mod rejections [FMLMod:naturescompass{1.3.1}, FMLMod:dragonoptifix{1.0}, FMLMod:jdam{1.7.4}, FMLMod:nbarmors{2.7}, FMLMod:llibrary{1.5.2}, FMLMod:havencorecustomforms{NO-GIT-TAG-SET}, FMLMod:limblossmod{1.0}, FMLMod:backpacks16840{3.5.8}, FMLMod:ubm{1.0-1.7.10}, FMLMod:campfirebackport{1.7.10-1.11.2}, FMLMod:mowziesmobs{1.2.9}, FMLMod:ninjinentities{1.3.0.0}, FMLMod:FoodExpansion{1.0}]', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[23:00:17] [Server thread/INFO]: MiguelGatuno left the game
+[23:03:02] [User Authenticator #4/INFO]: UUID of player MiguelGatuno is 1dda3f83-1f37-4068-b9ed-ea25edec8180
+[23:03:03] [Server thread/INFO]: MiguelGatuno lost connection: TextComponent{text='Mod rejections [FMLMod:dragonoptifix{1.0}, FMLMod:jdam{1.7.4}, FMLMod:nbarmors{2.7}, FMLMod:llibrary{1.5.2}, FMLMod:havencorecustomforms{NO-GIT-TAG-SET}, FMLMod:limblossmod{1.0}, FMLMod:backpacks16840{3.5.8}, FMLMod:ubm{1.0-1.7.10}, FMLMod:campfirebackport{1.7.10-1.11.2}, FMLMod:mowziesmobs{1.2.9}, FMLMod:ninjinentities{1.3.0.0}, FMLMod:FoodExpansion{1.0}]', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[23:03:03] [Server thread/INFO]: MiguelGatuno left the game
+[23:06:56] [User Authenticator #5/INFO]: UUID of player MiguelGatuno is 1dda3f83-1f37-4068-b9ed-ea25edec8180
+[23:06:58] [Server thread/INFO]: MiguelGatuno[/0:0:0:0:0:0:0:1:49064] logged in with entity id 292 at (-171.5, 70.0, 239.5)
+[23:06:58] [Server thread/INFO]: MiguelGatuno joined the game
+[23:07:14] [Server thread/INFO]: MiguelGatuno has just earned the achievement [Taking Inventory]
+[23:08:17] [User Authenticator #6/INFO]: UUID of player Sengaxx is 9d04f4a4-760e-4fdb-9527-b6f8ab998f1c
+[23:08:19] [Server thread/INFO]: Sengaxx[/0:0:0:0:0:0:0:1:45188] logged in with entity id 3384 at (390.71875000000006, 80.0, 157.71874999999997)
+[23:08:19] [Server thread/INFO]: Sengaxx joined the game
+[23:08:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2554ms behind, skipping 51 tick(s)
+[23:08:53] [Server thread/INFO]: [Sengaxx: Teleported Sengaxx to MiguelGatuno]
